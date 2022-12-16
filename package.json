@@ -1,0 +1,19 @@
+{
+  "name": "defi-insurance-course",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "dodao-course-processor gen-all src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoDAO-io/defi-insurance-course.git"
+  },
+  "author": "robin",
+  "bugs": {
+    "url": "https://github.com/DoDAO-io/defi-insurance-course/issues"
+  },
+  "homepage": "https://github.com/DoDAO-io/defi-insurance-course#readme",
+  "dependencies": {
+    "dodao-course-processor": "^0.1.33"
+  }
+}
