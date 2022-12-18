@@ -19,10 +19,336 @@
     {
       "title": "Intoduction",
       "key": "intoduction",
-      "details": "Insurance in decentralized finance (DeFi) works in much the same way as traditional insurance, with a few key differences. In traditional insurance, a policyholder pays premiums to an insurance company, which provides financial protection in the event of a loss or other covered event. In DeFi, insurance is typically provided by a smart contract on a blockchain, rather than by a traditional insurance company.\nHere are some key points to consider when thinking about insurance in DeFi:\n* Risk pooling: DeFi insurance typically works by pooling the premiums paid by policyholders into a shared fund. This fund is used to pay out claims in the event of a loss or covered event.\n* Smart contracts: DeFi insurance is typically provided through smart contracts on a blockchain. These smart contracts automate the process of calculating premiums, paying out claims, and managing the risk pool.\n* Transparency: Because DeFi insurance is provided through smart contracts on a blockchain, the terms of the insurance policy and the status of the risk pool are typically transparent and verifiable. This can give policyholders more confidence in the fairness and reliability of the insurance process.\n* Customization: DeFi insurance can be customized to meet the specific needs of policyholders. For example, a policyholder might be able to choose the specific risks they want to be covered for, or select a premium payment schedule that meets their needs.\n* Overall, DeFi insurance is a promising new application of blockchain technology that has the potential to make insurance more transparent, efficient, and accessible.\n",
+      "details": "Insurance in decentralized finance (DeFi) works in much the same way as traditional insurance, with a few key differences. In traditional insurance, a policyholder pays premiums to an insurance company, which provides financial protection in the event of a loss or other covered event. In DeFi, insurance is typically provided by a smart contract on a blockchain, rather than by a traditional insurance company.\nHere are some key points to consider when thinking about insurance in DeFi:\n* Risk pooling: DeFi insurance typically works by pooling the premiums paid by policyholders into a shared fund. This fund is used to pay out claims in the event of a loss or covered event.\n* Smart contracts: DeFi insurance is typically provided through smart contracts on a blockchain. These smart contracts automate the process of calculating premiums, paying out claims, and managing the risk pool.\n* Transparency: Because DeFi insurance is provided through smart contracts on a blockchain, the terms of the insurance policy and the status of the risk pool are typically transparent and verifiable. This can give policyholders more confidence in the fairness and reliability of the insurance process.\n* Customization: DeFi insurance can be customized to meet the specific needs of policyholders. For example, a policyholder might be able to choose the specific risks they want to be covered for, or select a premium payment schedule that meets their needs.\n* Overall, DeFi insurance is a promising new application of blockchain technology that has the potential to make insurance more transparent, efficient, and accessible.\n\n",
       "order": 0,
       "explanations": [],
       "questions": [],
+      "readings": [],
+      "summaries": []
+    },
+    {
+      "title": "Nexus Mutual",
+      "key": "nexus-mutual",
+      "details": "Later\n",
+      "order": 1,
+      "explanations": [
+        {
+          "title": "Introduction",
+          "shortTitle": "Intro",
+          "key": "intro-to-covers",
+          "details": "Nexus Mutual is the most significant Defi insurance protocol in the cryptocurrency market. Its Total Value Locked (TVL) as of 1 May 2021 is $450 million, as opposed to $7 million for Cover Protocol, the second-largest Defi insurance protocol. Hugh Karp, a former CFO of Munich Re in the UK, launched Nexus Mutual.\n\nNexus Mutual is a decentralized protocol that enables organizations and people to buy insurance policies that guard against the particular risks associated with platforms that are decentralized (DeFi) or centralized (CeFi). Without the need for a centralized insurance provider, Nexus Mutual is an Ethereum-based platform that enables users from all over the world to share insurance risks. The members of the Nexus Mutual platform decide whether claims are legitimate, and smart contracts record and enforce their choices. This eliminates the need to have faith in an insurance company because claim payments are enforced by token-driven economic incentives. All mutual members have legal agreements supporting their membership rights, represented by cryptocurrency tokens used throughout the insurance platform.\n"
+        },
+        {
+          "title": "Types of Covers",
+          "shortTitle": "Covers",
+          "key": "covers",
+          "details": "Nexus Mutual consists of three types of covers-\n\n1. Protocol Covers \n2. Custody Cover \n3. Yield Token Cover\n\nCover is only ever applicable to specific types of events and is always protocol- or token-specific. A protocol cover policy, for instance, won't safeguard money held on a custodial platform. Cover is used as an alternative to “insurance” in traditional finance.\n\n### Protocol Covers\nProtocol covers are generally to protect and safeguards assets in the event of a protocol, smart contract failure, or oracle misuse. They are necessary because smart contacts can be hacked due to flaws in them. Primarily it includes-\n\n1. Economic design failure \n2. Governance attacks\n3. Severe oracle failure \n4. Protection for Non-Ethereum smart contracts\n5. Protection for assets on Layer-2\n\n### Custody Covers\nIn the case of an attack on a custodial platform—one that seizes custody of user cash when they engage with it—this kind of insurance protects that money. Cover the dangers of money being stolen or the withdrawal being stopped. Popular custodial platforms include Coinbase and BlockFi. \n\n### Yield Token Cover\nFunds are protected by yield token cover in the event that a yield token—a token included in a yield-generating protocol, like yDAI—loses its peg to its underlying asset and therefore loses some of its value. There is protection against yield token protocol failure or peg loss for Yearn, Convex, Idle USDT, and other cryptocurrencies.\n"
+        },
+        {
+          "title": "NXM Token",
+          "shortTitle": "nxm token",
+          "key": "nxm-token",
+          "details": "The governance token of the mutual, NXM, is used to connect the internal economics of the mutual so that the platform may respond dynamically to market conditions and capitalization levels and reward active members for participating in the mutual's daily operations. To hold NXM, one must be a member of the mutual. \n\n\nMembers can take part in risk and claim assessments using NXM. The cost of cover, which may also be purchased with ETH and DAI, can also be paid with NXM. Members can also take part in governance by casting NXM votes on ideas. Members decide the protocol's destiny through these votes.\n"
+        },
+        {
+          "title": "Claim Assesment",
+          "shortTitle": "claims",
+          "key": "claims",
+          "details": "Members who stake NXM act as claim assessors and decide whether to approve a claim. The claims are processed within 72 hours. For a claim that needs approval, the loss of funds must-\n\n1. Fall into various categories which are mentioned in the cover policy contract\n2. Occur within the defined time period\n3. Be significant enough to account for as a claim\n\nThe claimant must additionally provide evidence of their loss or that they were unable to withdraw money. This might be a 0-value transaction or a signature. An account statement, a notification from the protocol describing a hack, or another sort of warning could serve as additional proof.\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "cf7ba329-9f28-412d-9cc9-d3293ec79e34",
+          "type": "SingleChoice",
+          "content": "Who is the founder of Nexus Mutual?",
+          "hint": "No Hint",
+          "explanation": "High karp is the founder of Nexus Mutual",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Vitalik Buterin",
+              "key": "A"
+            },
+            {
+              "content": "Hugh Karp",
+              "key": "B"
+            },
+            {
+              "content": "Mike Miglio",
+              "key": "C"
+            },
+            {
+              "content": "Robert Forster",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9cb20aac-d82e-431a-bde3-621b6c533b23",
+          "type": "SingleChoice",
+          "content": "Which of the following is/are a type of insurance cover provided by nexus mutual?",
+          "hint": "Nexus Mutual covers",
+          "explanation": "There are 3 types of covers offered by Nexus Mutual. Those are Protocol Covers, Custody Cover and Yield Token Cover.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Protocol Cover",
+              "key": "A"
+            },
+            {
+              "content": "Expiration Cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Both A and C",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "90bc73c1-893a-4cd5-ac3b-8aa74af44c2a",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is helpful in the case of smart contract failure or oracle misuse?",
+          "hint": "No Hint",
+          "explanation": "Protocol cover is helpful in the case of smart contract failure or oracle misuse.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Protocol Cover",
+              "key": "A"
+            },
+            {
+              "content": "Yield token cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Expiration Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b734e61a-411c-4456-9eb1-5f27faaaf1e0",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is helpful in the case when your DeFi wallet is attacked?",
+          "hint": "No Hint",
+          "explanation": "Custody Cover is helpful in the case when your DeFi wallet is attacked.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Protocol Cover",
+              "key": "A"
+            },
+            {
+              "content": "Yield token cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Expiration Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "866f57ac-540f-4b3d-bff6-6460b7f63c53",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is helpful in the case the token loses its intrinsic value or the underlying asset losses its value?",
+          "hint": "No Hint",
+          "explanation": "Yield Token Cover is helpful in the case the token loses its intrinsic value or the underlying asset losses its value.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Protocol Cover",
+              "key": "A"
+            },
+            {
+              "content": "Yield token cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Expiration Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "505dd8b3-da2b-4655-b468-d104ca714ece",
+          "type": "SingleChoice",
+          "content": "NXM is a type of",
+          "hint": "NXM token helps in the proper functioning of nexus mutual protocol.",
+          "explanation": "NXM token is a type of governance token.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Commodity token",
+              "key": "A"
+            },
+            {
+              "content": "Stablecoin",
+              "key": "B"
+            },
+            {
+              "content": "Utility Token",
+              "key": "C"
+            },
+            {
+              "content": "Governance token",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "eb6517cc-dd3d-49ad-aa44-a92716e8c79a",
+          "type": "SingleChoice",
+          "content": "Which of the following is NOT a function of an NXM token?",
+          "hint": "No Hint",
+          "explanation": "NXM token is only for the mutual members hence it does not help to provide insurance cover to non-mutual members.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Risk and claim assessments",
+              "key": "A"
+            },
+            {
+              "content": "Reward active members who help in the building of the platform",
+              "key": "B"
+            },
+            {
+              "content": "Provide insurance cover to non-mutual members",
+              "key": "C"
+            },
+            {
+              "content": "Provide voting rights",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f73cbb4f-e091-44e9-9517-350b097ed0ab",
+          "type": "SingleChoice",
+          "content": "How much time does it take for claim assessment?",
+          "hint": "No Hint",
+          "explanation": "It takes 72 hours (3 days) for claim assessment.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "2 days",
+              "key": "A"
+            },
+            {
+              "content": "3 days",
+              "key": "B"
+            },
+            {
+              "content": "5 days",
+              "key": "C"
+            },
+            {
+              "content": "More than 1 week",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "941d074d-4261-4959-8e44-6379432d2f1b",
+          "type": "SingleChoice",
+          "content": "Which of the following conditions must be verified before claim approval?",
+          "hint": "No Hint",
+          "explanation": "Claims should abide with the expected time period, should have been in justified categories and significant amount.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Loss of funds can be beyond the defined time period",
+              "key": "A"
+            },
+            {
+              "content": "The claim should abide by the time period",
+              "key": "B"
+            },
+            {
+              "content": "Funds lost are outside the categories justified",
+              "key": "C"
+            },
+            {
+              "content": "Funds lost are more than the claim amount",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "aeb74bfe-9562-41e0-bc42-73006c0528f9",
+          "type": "SingleChoice",
+          "content": "Nexus Mutual is built upon",
+          "hint": "No Hint",
+          "explanation": "Nexus Mutual is built upon Ethereum Network",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "NXM network",
+              "key": "A"
+            },
+            {
+              "content": "Ethereum Network",
+              "key": "B"
+            },
+            {
+              "content": "Bitcoin Network",
+              "key": "C"
+            },
+            {
+              "content": "Doge Network",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     }
