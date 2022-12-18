@@ -14,6 +14,7 @@ Here are some key points to consider when thinking about insurance in DeFi:
 * Overall, DeFi insurance is a promising new application of blockchain technology that has the potential to make insurance more transparent, efficient, and accessible.
 
 
+
 ## Links
 
 

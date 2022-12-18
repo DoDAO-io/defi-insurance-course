@@ -44,3 +44,12 @@ topics:
       * Customization: DeFi insurance can be customized to meet the specific needs of policyholders. For example, a policyholder might be able to choose the specific risks they want to be covered for, or select a premium payment schedule that meets their needs.
 
       * Overall, DeFi insurance is a promising new application of blockchain technology that has the potential to make insurance more transparent, efficient, and accessible.
+
+  - title: Nexus Mutual
+    key: nexus-mutual
+    details: |
+      Later
+    explanations: nexus_mutual.yaml     
+    questions: nexus_mutual.yaml   
+    status: Done
+    completionWeek: Done
