@@ -5,3 +5,42 @@
     How Insurance Works
 
     How Insurance Works
+- key: people-involved
+  shortTitle: People
+  details: >+
+    ## Cover Providers
+
+    Instead of purchasing coverage from a centralized entity, DeFi insurance
+    protocols allow users and companies to 
+
+    purchase coverage from a decentralized pool of coverage providers. Anyone
+    can be a coverage provider by locking 
+
+    capital in a capital pool and exposing themselves to risk, just as liquidity
+    providers do in lending protocols. 
+
+    Cover providers invest their funds in pools with higher returns relative to
+    the protocol's risk, which means that 
+
+    individuals trade the outcomes of events based on their estimations of the
+    probability of the underlying risk event. 
+
+    If a protocol covered by the insurer suffers an adverse event such as a
+    hack, the funds in the capital pool that covers 
+
+    that protocol will be used to compensate users who purchased coverage
+    against that specific event on that protocol. 
+
+    Coverage providers are incentivized to provide liquidity and are rewarded
+    for assuming risk by earning a return on 
+
+    their capital. The yield is a percentage of premiums paid, presenting a
+    correlation between the premium paid and 
+
+    the risk for the protocol under consideration. However, DeFi insurers often
+    include their own liquidity mining 
+
+    incentives in their yield calculation, which are used to bootstrap liquidity
+    for the pools.
+
+  title: People Involved
