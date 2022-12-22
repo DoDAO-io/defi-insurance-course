@@ -39,17 +39,25 @@
 
     ## Current State of DeFi Insurance
 
+    As of the start of 2023, the total value locked in the DeFi ecosystem is
+    about ~$52 billion with an all-time high of about ~250 billion in January of
+    2022. (Source: DeFi Llama). DeFi insurance makes up less than 1% of total
+    TVL in DeFi. In insurance, we see ~210 million TLV and out of that, ~170
+    million of TVL is represented by Nexus Mutual.
 
-    TLV of DeFi is about ~52 Billion 
 
-    In Insurance we see ~210 Million TLV and out of that ~170 million is by
-    Nexus Mutual.
+    Adoption of DeFi applications has been growing rapidly in recent months,
+    with lending & borrowing and exchanges being the two most popular
+    categories. One of the main reasons for their popularity is that most of the
+    functionality provided by these projects is purely code and algorithm
+    driven, which removes the need for a middleman and makes the entire system
+    more transparent, trustable and efficient.
 
 
-
-    In the last three years i.e. since the inception of DeFi, most of the money
-    that had been deployed in DeFi went towards Lending & Borrowing and
-    Decentralized exchanges
+    On the other hand, even though DeFi insurance still requires human
+    intervention when it comes to filing and evaluating claims, we will see more
+    and more trustable, code-driven decisions being made about claims in the
+    coming years.
 - key: how-insurance-works
   title: How Insurance Works
   shortTitle: Working
