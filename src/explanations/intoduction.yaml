@@ -215,6 +215,10 @@
     Process an insurance company uses to determine who will be offered an
     insurance policy and at what price.
   title: Important Terms
+- key: background
+  shortTitle: Background
+  details: '## Rise of Blockchain'
+  title: Background
 - key: insurance-policy-components
   shortTitle: Components
   details: >-
@@ -270,7 +274,3 @@
     expensive because the high out-of-pocket expense generally results in fewer
     small claims.
   title: Insurance Policy Components
-- key: background
-  shortTitle: Background
-  details: '## Rise of Blockchain'
-  title: Background
