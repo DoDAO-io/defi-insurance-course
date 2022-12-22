@@ -25,7 +25,7 @@
         {
           "key": "how-insurance-works",
           "shortTitle": "Working",
-          "details": "How Insurance Works\n\nHow Insurance Works",
+          "details": "How Insurance Works\n\nHow Insurance Works\n\n\n## Law of Large Numbers\nInsurance companies use the law of large numbers to estimate the losses a certain group of insureds may have in the future. For example, using statistics, an Actuary looks at losses that have occurred in the past and predicts that in the future approximately two out of 100 policyholders will have a claim. Thus, if the company writes 100 automobile policies, it may expect to pay two claims. This is referred to as loss frequency.\n\nInsurers must also determine the average cost of claims over time, or loss severity. If the average claim resulted in the company paying $1,000, then the Actuary will predict that total losses for the upcoming year will be $2,000 (two claims at $1,000 each).\n\nThe law of large numbers states that as the number of policyholders increases, the more confident the insurance company is its prediction will prove true. Therefore, they attempt to acquire a large number of similar policyholders who all contribute to a fund which will pay the losses.\n\n",
           "title": "How Insurance Works"
         },
         {
