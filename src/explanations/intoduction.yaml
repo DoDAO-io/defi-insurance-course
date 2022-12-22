@@ -91,6 +91,10 @@
     for the pools.
 
   title: People Involved
+- key: background
+  shortTitle: Background
+  details: '## Rise of Blockchain'
+  title: Background
 - key: important-terms
   shortTitle: Terms
   details: >-
@@ -215,10 +219,6 @@
     Process an insurance company uses to determine who will be offered an
     insurance policy and at what price.
   title: Important Terms
-- key: background
-  shortTitle: Background
-  details: '## Rise of Blockchain'
-  title: Background
 - key: insurance-policy-components
   shortTitle: Components
   details: >-
