@@ -1,7 +1,7 @@
 - key: how-insurance-works
   title: How Insurance Works
   shortTitle: Working
-  details: >+
+  details: >-
     How Insurance Works
 
 
@@ -30,6 +30,28 @@
     prove true. Therefore, they attempt to acquire a large number of similar
     policyholders who all contribute to a fund which will pay the losses.
 
+
+    ## How premiums are calculated
+
+    Insurers use risk data to calculate the likelihood of the event you are
+    insuring against happening. This information is used to work out the cost of
+    your premium. The more likely the event you are insuring against is to
+    occur, the higher the risk to the insurer and, as a result, the higher the
+    cost of your premium.
+
+
+    An insurer will take two important factors into account when working out the
+    premium they will charge.
+
+
+    How likely is it in general terms that someone will need to make a claim?
+
+    Is the person who wants to take out a policy a bigger or smaller risk than
+    the ‘average’ policyholder (for example, a young person with a high-powered
+    car may be charged a higher premium as they are statistically more likely to
+    be involved in an accident than a mature, experienced driver)?
+
+    Only a proportion of policyholders will make a claim in any one year. 
 - key: people-involved
   shortTitle: People
   details: >+
