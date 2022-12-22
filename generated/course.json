@@ -23,16 +23,16 @@
       "order": 0,
       "explanations": [
         {
-          "key": "how-insurance-works",
-          "shortTitle": "Working",
-          "details": "How Insurance Works\n\nHow Insurance Works\n\n\n## Law of Large Numbers\nInsurance companies use the law of large numbers to estimate the losses a certain group of insureds may have in the future. For example, using statistics, an Actuary looks at losses that have occurred in the past and predicts that in the future approximately two out of 100 policyholders will have a claim. Thus, if the company writes 100 automobile policies, it may expect to pay two claims. This is referred to as loss frequency.\n\nInsurers must also determine the average cost of claims over time, or loss severity. If the average claim resulted in the company paying $1,000, then the Actuary will predict that total losses for the upcoming year will be $2,000 (two claims at $1,000 each).\n\nThe law of large numbers states that as the number of policyholders increases, the more confident the insurance company is its prediction will prove true. Therefore, they attempt to acquire a large number of similar policyholders who all contribute to a fund which will pay the losses.\n\n## How premiums are calculated\nInsurers use risk data to calculate the likelihood of the event you are insuring against happening. This information is used to work out the cost of your premium. The more likely the event you are insuring against is to occur, the higher the risk to the insurer and, as a result, the higher the cost of your premium.\n\nAn insurer will take two important factors into account when working out the premium they will charge.\n\nHow likely is it in general terms that someone will need to make a claim?\nIs the person who wants to take out a policy a bigger or smaller risk than the ‘average’ policyholder (for example, a young person with a high-powered car may be charged a higher premium as they are statistically more likely to be involved in an accident than a mature, experienced driver)?\nOnly a proportion of policyholders will make a claim in any one year. ",
-          "title": "How Insurance Works"
-        },
-        {
           "key": "background",
           "shortTitle": "Background",
           "details": "## Rise of Blockchain",
           "title": "Background"
+        },
+        {
+          "key": "how-insurance-works",
+          "shortTitle": "Working",
+          "details": "How Insurance Works\n\nHow Insurance Works\n\n\n## Law of Large Numbers\nInsurance companies use the law of large numbers to estimate the losses a certain group of insureds may have in the future. For example, using statistics, an Actuary looks at losses that have occurred in the past and predicts that in the future approximately two out of 100 policyholders will have a claim. Thus, if the company writes 100 automobile policies, it may expect to pay two claims. This is referred to as loss frequency.\n\nInsurers must also determine the average cost of claims over time, or loss severity. If the average claim resulted in the company paying $1,000, then the Actuary will predict that total losses for the upcoming year will be $2,000 (two claims at $1,000 each).\n\nThe law of large numbers states that as the number of policyholders increases, the more confident the insurance company is its prediction will prove true. Therefore, they attempt to acquire a large number of similar policyholders who all contribute to a fund which will pay the losses.\n\n## How premiums are calculated\nInsurers use risk data to calculate the likelihood of the event you are insuring against happening. This information is used to work out the cost of your premium. The more likely the event you are insuring against is to occur, the higher the risk to the insurer and, as a result, the higher the cost of your premium.\n\nAn insurer will take two important factors into account when working out the premium they will charge.\n\nHow likely is it in general terms that someone will need to make a claim?\nIs the person who wants to take out a policy a bigger or smaller risk than the ‘average’ policyholder (for example, a young person with a high-powered car may be charged a higher premium as they are statistically more likely to be involved in an accident than a mature, experienced driver)?\nOnly a proportion of policyholders will make a claim in any one year. ",
+          "title": "How Insurance Works"
         },
         {
           "key": "people-involved",

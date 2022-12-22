@@ -1,3 +1,7 @@
+- key: background
+  shortTitle: Background
+  details: '## Rise of Blockchain'
+  title: Background
 - key: how-insurance-works
   title: How Insurance Works
   shortTitle: Working
@@ -52,10 +56,6 @@
     be involved in an accident than a mature, experienced driver)?
 
     Only a proportion of policyholders will make a claim in any one year. 
-- key: background
-  shortTitle: Background
-  details: '## Rise of Blockchain'
-  title: Background
 - key: people-involved
   shortTitle: People
   details: >+
