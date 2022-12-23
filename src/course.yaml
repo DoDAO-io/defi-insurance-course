@@ -74,3 +74,5 @@ topics:
     questions: nexus_mutual.yaml
     status: Done
     completionWeek: Done
+courseAdmins: []
+coursePassCount: 3
