@@ -384,5 +384,6 @@
       "summaries": []
     }
   ],
-  "coursePassCount": 3
+  "coursePassCount": 3,
+  "coursePassContent": "Pass content of Course !!!!!!!!!!"
 }
