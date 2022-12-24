@@ -64,7 +64,8 @@
   details: >-
     There are many problems faced by insurance companies
 
-    1) **Misaligned Incentives** - An insurer offers guaranteed support in case of emergency or unforeseen 
+    1) **Misaligned Incentives** - An insurer offers guaranteed support in case
+    of emergency or unforeseen 
         circumstances, and in exchange, they charge a premium to customers. The interests of insurers and insured 
         people are opposite; an insurer would want to pay out minimal claims and get maximum insurance premiums, but 
         an insured person would want to get maximum coverage with minimal premium.
@@ -94,51 +95,65 @@
        real-time. This would lead to better use of technology, reduced costs for entrance into the industry, 
        and improved day-to-day operations.
 
-    4) **Transparency** - An insurance company will only be transparent with its users if it aligns with their 
+    4) **Transparency** - An insurance company will only be transparent with its
+    users if it aligns with their 
        interests. However, as noted, the interests of the insurance company and policy buyers are often opposite. 
        Additionally, no company would want to expose its inefficiencies to the public. Because of these fundamental 
        issues, companies often don't want to be transparent. 
-    
-    5) **New sectors are not insured** - The insurance industry is notoriously slow-moving and risk-averse, which has 
+
+    5) **New sectors are not insured** - The insurance industry is notoriously
+    slow-moving and risk-averse, which has 
        resulted in many sectors being left out and not enjoying the benefits of insurance. For example, the crypto 
        industry currently holds around $800 billion, but only a tiny percentage of that is insured.
-
 - key: important-concepts
   title: Important Concepts
   shortTitle: Imp. Concepts
-  details: >+  
-    ### Law of Large Numbers
-    insurance companies base their future estimates of losses on the law of large numbers. For example, an actuary will 
-    look at past losses and predict that, in the future, approximately two out of every 100 policyholders will have a 
-    claim. Thus, if the company writes 100 automobile policies, it can expect to pay out two claims. This is referred 
-    to as loss frequency.
-    
-    
-    Insurers need to calculate the average cost of claims over time, or loss severity. If the average claim costs the 
-    company $1,000, then the Actuary will predict that total losses for the upcoming year will be $2,000 (two claims 
-    at $1,000 each).
+  details: >
+    ### Law of Large Numbers 
 
-    The law of large numbers says that as the number of policyholders increases, the insurance company is more confident 
-    its prediction will be accurate. So they try to get a lot of similar policyholders who all contribute to a fund 
+    Insurance companies base their future estimates of losses on the law of
+    large numbers. For example, an actuary will  look at past losses and predict
+    that, in the future, approximately two out of every 100 policyholders will
+    have a  claim. Thus, if the company writes 100 automobile policies, it can
+    expect to pay out two claims. This is referred  to as loss frequency.
+
+
+    Insurers need to calculate the average cost of claims over time, or loss
+    severity. If the average claim costs the  company $1,000, then the Actuary
+    will predict that total losses for the upcoming year will be $2,000 (two
+    claims  at $1,000 each).
+
+
+    The law of large numbers says that as the number of policyholders increases,
+    the insurance company is more confident  its prediction will be accurate. So
+    they try to get a lot of similar policyholders who all contribute to a fund 
     that will pay the losses.
 
-    ### Premium Calculation
-    Insurance companies use risk data to calculate the likelihood of an event occurring that you are insuring 
-    against. This information is used to determine the cost of your premium. The higher the risk to the insurer, the 
-    higher the likelihood of the event occurring, and as a result, the higher the cost of your premium. When 
-    determining premiums, insurers consider whether the person who wants to take out a policy is a bigger or smaller 
-    risk than the average policyholder. For example, a young person with a high-powered car may be charged a higher 
-    premium because they are statistically more likely to be involved in an accident than a mature, experienced driver.
+
+    ### Premium Calculation 
+
+    Insurance companies use risk data to calculate the likelihood of an event
+    occurring that you are insuring  against. This information is used to
+    determine the cost of your premium. The higher the risk to the insurer, the 
+    higher the likelihood of the event occurring, and as a result, the higher
+    the cost of your premium. When  determining premiums, insurers consider
+    whether the person who wants to take out a policy is a bigger or smaller 
+    risk than the average policyholder. For example, a young person with a
+    high-powered car may be charged a higher  premium because they are
+    statistically more likely to be involved in an accident than a mature,
+    experienced driver.
 
     Only a proportion of policyholders will make a claim in any one year. 
-    
-    ### Cover Providers
-    Cover providers are organizations that offer coverage or protection against various risks or liabilities. DeFi 
-    protocols have made it easier to access capital by pooling assets. This allows users and companies to purchase 
-    coverage from a decentralized group of cover providers, instead of having to buy it from a centralized entity. 
 
-     Cover providers invest their funds in pools with higher returns relative to the protocol's risk, which means that 
-     individuals trade the outcomes of events based on their estimations of the probability of the underlying risk event. 
 
-     By using DeFi protocols, individuals and companies can get the coverage they need without having to go through a 
-     centralized entity. This gives them more control over their finances and helps to keep costs down.
+    ### Cover Providers 
+
+    Cover providers are organizations that offer coverage or protection against
+    various risks or liabilities. DeFi  protocols have made it easier to access
+    capital by pooling assets. This allows users and companies to purchase 
+    coverage from a decentralized group of cover providers, instead of having to
+    buy it from a centralized entity. 
+
+     Cover providers invest their funds in pools with higher returns relative to the protocol's risk, which means that individuals trade the outcomes of events based on their estimations of the probability of the underlying risk event. 
+
+     By using DeFi protocols, individuals and companies can get the coverage they need without having to go through a centralized entity. This gives them more control over their finances and helps to keep costs down.
