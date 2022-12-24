@@ -80,24 +80,28 @@
 
     There are many problems faced by by insurance companies
 
-    1) **Capital Requirements** - The insurance industry is a capital-intensive
-    business. The more capital you have, the more people you can insure, and the
-    more premiums you can get. This in turn reduces your risk and allows you to
-    charge lower premiums to customers. However, this creates a chicken-and-egg
-    problem for smaller startups. They can't easily enter the industry because
-    of the high capital requirements and economies of scale. This lack of
-    competition means higher premiums for customers.
+    1) **Misaligned incentives** -  
+    2) **Capital Requirements** - The insurance industry is a capital-intensive
+       business. The more capital you have, the more people you can insure, and the
+       more premiums you can get. This in turn reduces your risk and allows you to
+       charge lower premiums to customers. However, this creates a chicken-and-egg
+       problem for smaller startups. They can't easily enter the industry because
+       of the high capital requirements and economies of scale. This lack of
+       competition means higher premiums for customers.
 
 
-    2) **Inefficiencies** -  The insurance industry, like the banking sector, is
-    highly regulated. This can make it difficult for new, innovative companies
-    to enter the market. And because the bigger players rely on outdated
-    technologies and processes, they can be quite inefficient. This inefficiency
-    leads to higher premiums for customers.
+    3) **Inefficiencies** -  The insurance industry, like the banking sector, is
+       highly regulated. This can make it difficult for new, innovative companies
+       to enter the market. And because the bigger players rely on outdated
+       technologies and processes, they can be quite inefficient. This inefficiency
+       leads to higher premiums for customers.
 
-      However, with real-time analytics and reporting, most of the regulation can be simplified and made real-time. This would lead to better use of technology, reduced costs for entrance into the industry, and improved day-to-day operations.
+       However, with real-time analytics and reporting, most of the regulation can be simplified and made 
+       real-time. This would lead to better use of technology, reduced costs for entrance into the industry, 
+       and improved day-to-day operations.
 
-
+    4) **Transparency** - 
+    
     An insurer is looking after customers money and then promising it will pay
     when a claim arises. As a result, the insurer is becoming an agent of the
     customer and history has proven this model doesn’t

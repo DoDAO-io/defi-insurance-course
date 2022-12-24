@@ -1,0 +1,166 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Intoduction
+ 
+ **Background**        
+## Rise of Crypto
+The rise of blockchain and crypto currencies has brought about a number of changes in the technology and financial sector, which has in turn opened up the possibility - and need - for new types of organizations and products which did not exist before. 
+
+We've seen a lot of new, innovative ways to raise capital, align community interests, and make rewards or payments using a native currency. And on the human coordination front, we see that teams of hundreds or thousands of people can work together towards a common goal with aligned incentives. The members can choose to be completely anonymous. Blockchain Technology has made it easy to write small software programs (smart contracts) that can lay out completely flexible rules on how money can be collected or given out. 
+
+## Need for DeFi Insurance
+The DeFi market has been plagued by hacks, bugs, exploits, rug-pulls, and flash loan attacks since its early days, leading to a loss of confidence among users and preventing mainstream adoption. While technological maturity will reduce many of the vulnerabilities, it will not be able to make the system risk-proof. Insurance solutions can help protect users in these situations.
+
+In most cases, the funds that users have stored in banks in developed nations are backed by the government. This means that if a bank were to go bankrupt, the government would cover the customer's losses up to a certain limit. A good insurance infrastructure is crucial for users of developed nations if we want them to use open blockchain technologies as their primary way of interacting with the financial ecosystem.
+
+## Current State of DeFi Insurance
+As of the start of 2023, the total value locked in the DeFi ecosystem is about ~$52 billion with an all-time high of about ~250 billion in January of 2022. (Source: DeFi Llama). DeFi insurance makes up less than 1% of total TVL in DeFi. In insurance, we see ~210 million TLV and out of that, ~170 million of TVL is represented by Nexus Mutual.
+
+Adoption of DeFi applications has been growing rapidly in recent months, with lending & borrowing and exchanges being the two most popular categories. One of the main reasons for their popularity is that most of the functionality provided by these projects is purely code and algorithm driven, which removes the need for a middleman and makes the entire system more transparent, trustable and efficient.
+
+On the other hand, even though DeFi insurance still requires human intervention when it comes to filing and evaluating claims, we will see more and more trustable, code-driven decisions being made about claims in the coming years. 
+ **How Insurance Works**        
+## Current problems with Insurance Industry
+One of the best things about developed nations is that most of the users can trustable insurance for companies which protects them from unexpected events. Strong financial and insurance system is must for any country to prosper. 
+
+An insurer offers guaranteed support in case of emergency/unforeseen circumstances, and in exchange they charge premium to the customers. Interests of the insurer and the insured are completely opposite i.e. and insurer would want to payout minimal claims and get maximum insurance premiums, but an insured would want to get maximum coverage with minimal premium. 
+
+There are many problems faced by by insurance companies
+1) **Misaligned incentives** -   2) **Capital Requirements** - The insurance industry is a capital-intensive
+   business. The more capital you have, the more people you can insure, and the
+   more premiums you can get. This in turn reduces your risk and allows you to
+   charge lower premiums to customers. However, this creates a chicken-and-egg
+   problem for smaller startups. They can't easily enter the industry because
+   of the high capital requirements and economies of scale. This lack of
+   competition means higher premiums for customers.
+
+
+3) **Inefficiencies** -  The insurance industry, like the banking sector, is
+   highly regulated. This can make it difficult for new, innovative companies
+   to enter the market. And because the bigger players rely on outdated
+   technologies and processes, they can be quite inefficient. This inefficiency
+   leads to higher premiums for customers.
+
+   However, with real-time analytics and reporting, most of the regulation can be simplified and made 
+   real-time. This would lead to better use of technology, reduced costs for entrance into the industry, 
+   and improved day-to-day operations.
+
+4) **Transparency** - 
+An insurer is looking after customers money and then promising it will pay when a claim arises. As a result, the insurer is becoming an agent of the customer and history has proven this model doesn’t
+work without heavy oversight from government institutions and complex legal frameworks. These frameworks are necessary primarily due to the lack of trust between customers and the institution and boil down to two main points:
+
+
+
+
+## Law of Large Numbers
+Insurance companies use the law of large numbers to estimate the losses a certain group of insureds may have in the future. For example, using statistics, an Actuary looks at losses that have occurred in the past and predicts that in the future approximately two out of 100 policyholders will have a claim. Thus, if the company writes 100 automobile policies, it may expect to pay two claims. This is referred to as loss frequency.
+
+Insurers must also determine the average cost of claims over time, or loss severity. If the average claim resulted in the company paying $1,000, then the Actuary will predict that total losses for the upcoming year will be $2,000 (two claims at $1,000 each).
+
+The law of large numbers states that as the number of policyholders increases, the more confident the insurance company is its prediction will prove true. Therefore, they attempt to acquire a large number of similar policyholders who all contribute to a fund which will pay the losses.
+
+## How premiums are calculated
+Insurers use risk data to calculate the likelihood of the event you are insuring against happening. This information is used to work out the cost of your premium. The more likely the event you are insuring against is to occur, the higher the risk to the insurer and, as a result, the higher the cost of your premium.
+
+An insurer will take two important factors into account when working out the premium they will charge.
+
+How likely is it in general terms that someone will need to make a claim?
+Is the person who wants to take out a policy a bigger or smaller risk than the ‘average’ policyholder (for example, a young person with a high-powered car may be charged a higher premium as they are statistically more likely to be involved in an accident than a mature, experienced driver)?
+Only a proportion of policyholders will make a claim in any one year.  
+ **People Involved**        
+## Cover Providers
+Instead of purchasing coverage from a centralized entity, DeFi insurance protocols allow users and companies to 
+purchase coverage from a decentralized pool of coverage providers. Anyone can be a coverage provider by locking 
+capital in a capital pool and exposing themselves to risk, just as liquidity providers do in lending protocols. 
+Cover providers invest their funds in pools with higher returns relative to the protocol's risk, which means that 
+individuals trade the outcomes of events based on their estimations of the probability of the underlying risk event. 
+If a protocol covered by the insurer suffers an adverse event such as a hack, the funds in the capital pool that covers 
+that protocol will be used to compensate users who purchased coverage against that specific event on that protocol. 
+Coverage providers are incentivized to provide liquidity and are rewarded for assuming risk by earning a return on 
+their capital. The yield is a percentage of premiums paid, presenting a correlation between the premium paid and 
+the risk for the protocol under consideration. However, DeFi insurers often include their own liquidity mining 
+incentives in their yield calculation, which are used to bootstrap liquidity for the pools.
+
+ 
+ **Important Terms**        
+#### Actual Cash Value
+The replacement cost of the item minus depreciation.
+
+#### Agency
+The legal principle that allows an individual or organization to represent another individual or organization.  Also, an organization that sells and services insurance policies to consumers.
+
+#### Agent
+A person licensed by the state insurance authority to sell insurance products. The agent represents the insurance company in all transactions.
+
+#### Claim
+Notification to the insurance company that a loss has occurred and a demand of payment for the loss, as provided by the terms of the insurance policy.
+
+#### Commercial Insurance
+Protects businesses and organizations in event of unexpected loss.  Commercial insurance includes is property insurance, liability insurance, workers compensation and automobile insurance.
+
+#### Deductible
+A portion of a covered loss that is not paid by the insurer.
+
+#### Endorsements
+Insurance policy modifications to meet the special needs of an individual risk.
+
+#### Indemnify
+To restore the one who suffers a loss, in whole or in part, by payment, repair or replacement to the same condition they were in prior to the loss.
+
+#### Insurance
+A contractual means of transferring the payment of a loss to a third party by means of a contract and the pooling of similar risks.
+
+#### Insurable Interest
+Interest from which monetary loss will result if the peril insured against occurs; possibility of financial loss that can be protected against through insurance.
+
+#### Law of Large Numbers
+A statistical principle that indicates that the larger the number of examples, the more accurate and predictable the statistic will be. This is one of the main principles involved in determining insurance actuarial tables.
+
+#### Liability
+Condition of being bound by law or contract to do something that may be enforced in the courts; obligation, usually financial; probable cost of meeting an obligation.
+
+#### Loss
+Basis of a claim for indemnity under provisions of an insurance policy. A loss is measured in terms of the reduced value of the property, the amount of medical and other related expenses, or the amount of the claim made against an insured.
+
+#### Personal Insurance
+Protects individuals and families from risk of loss to their assets. Personal insurance includes automobile insurance, homeowners insurance and insurance for boats, jewelry and other special items.
+
+#### Premium
+Designated amount payable by the insured to the insurance company and required to keep the contract in force.
+
+#### Policy
+The insurance contract and all attached endorsements, including type of insurance coverage, the limits paid for particular loss and the amount the insured paid in premium.
+
+#### Replacement Cost
+Cost to purchase new property to replace older property that was lost or damaged.
+
+#### Risk
+Condition in which there is a possibility of loss. Also a term indicating the person or property insured.
+
+#### Underwriting
+Process an insurance company uses to determine who will be offered an insurance policy and at what price. 
+ **Insurance Policy Components**        
+## Insurance Policy Components
+When choosing a policy, it is important to understand how insurance works.
+
+A firm understanding of these concepts goes a long way in helping you choose the policy that best suits your needs. For instance, whole life insurance may or may not be the right type of life insurance for you. Three components of any type of insurance are crucial: premium, policy limit, and deductible.
+
+### Premium
+A policy’s premium is its price, typically expressed as a monthly cost. The premium is determined by the insurer based on your or your business’s risk profile, which may include creditworthiness.
+
+For example, if you own several expensive automobiles and have a history of reckless driving, you will likely pay more for an auto policy than someone with a single midrange sedan and a perfect driving record. However, different insurers may charge different premiums for similar policies. So finding the price that is right for you requires some legwork.
+
+
+### Policy Limit
+The policy limit is the maximum amount that an insurer will pay under a policy for a covered loss. Maximums may be set per period (e.g., annual or policy term), per loss or injury, or over the life of the policy, also known as the lifetime maximum.
+
+Typically, higher limits carry higher premiums. For a general life insurance policy, the maximum amount that the insurer will pay is referred to as the face value, which is the amount paid to a beneficiary upon the death of the insured.
+
+### Deductible
+The deductible is a specific amount that the policyholder must pay out of pocket before the insurer pays a claim. Deductibles serve as deterrents to large volumes of small and insignificant claims.
+
+Deductibles can apply per policy or per claim, depending on the insurer and the type of policy. Policies with very high deductibles are typically less expensive because the high out-of-pocket expense generally results in fewer small claims. 
+ 
