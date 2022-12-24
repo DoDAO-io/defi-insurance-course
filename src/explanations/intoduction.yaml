@@ -109,7 +109,7 @@
   title: Important Concepts
   shortTitle: Imp. Concepts
   details: >
-    ### Law of Large Numbers 
+    ## Law of Large Numbers 
 
     Insurance companies base their future estimates of losses on the law of
     large numbers. For example, an actuary will  look at past losses and predict
@@ -130,7 +130,7 @@
     that will pay the losses.
 
 
-    ### Premium Calculation 
+    ## Premium Calculation 
 
     Insurance companies use risk data to calculate the likelihood of an event
     occurring that you are insuring  against. This information is used to
@@ -146,7 +146,7 @@
     Only a proportion of policyholders will make a claim in any one year. 
 
 
-    ### Cover Providers 
+    ## Cover Providers 
 
     Cover providers are organizations that offer coverage or protection against
     various risks or liabilities. DeFi  protocols have made it easier to access
