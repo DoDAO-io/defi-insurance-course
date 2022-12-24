@@ -74,6 +74,16 @@ topics:
     questions: nexus_mutual.yaml
     status: Done
     completionWeek: Done
+  
+  - title: Unslashed
+    key: unslashed
+    details: |
+      Later
+    explanations: unslashed.yaml
+    questions: unslashed.yaml
+    status: Done
+    completionWeek: Done
+
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!

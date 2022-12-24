@@ -1,0 +1,176 @@
+- uuid: e24b46ea-a887-4507-ba2f-0f093ae9ba10
+  type: SingleChoice
+  content: Who is the founder of Unslashed?
+  hint: No Hint
+  explanation: Dimitriy Remerov, Marouane Hajji, Dominik Franek and Peter Uljvari are the founders of Unslashed insurance platform.
+  answerKeys:
+    - D
+  difficultyLevel: "Low"
+  choices:
+    - content: Vitalik Buterin
+      key: A
+    - content: Hugh Karp
+      key: B
+    - content: Mike Miglio
+      key: C
+    - content: Dimitriy Remerov
+      key: D
+- uuid: 44f75120-988b-4c2b-a5e0-f7e8e6e803e0
+  type: SingleChoice
+  content: Which of the following is/are an insurance cover provided by unslashed?
+  hint: Types of covers by Unslashed  
+  explanation: There are three types of covers offered by Unslashed - Stable Depeg Cover, Custody Cover and Protcol Cover
+  answerKeys:
+    - D
+  difficultyLevel: "Low"
+  choices:
+    - content: Stable Depeg cover
+      key: A
+    - content: Custody Cover
+      key: B
+    - content: Yield Cover
+      key: C
+    - content: Both A and B
+      key: D
+- uuid: 9d71b077-e9f8-4679-8776-45ffcfcbf577
+  type: SingleChoice
+  content: Which of the following covers is used when the stable loses its peg to the target fiat currency by Unslashed?
+  hint: No Hint
+  explanation: Stable Depeg Cover is used when the stable loses its peg to the target fiat currency by Unslashed.
+  answerKeys:
+    - A
+  difficultyLevel: "Medium"
+  choices:
+    - content: Stable Depeg cover
+      key: A
+    - content: Custody Cover
+      key: B
+    - content: Yield Cover
+      key: C
+    - content: Protcol Cover
+      key: D
+- uuid: fbfda3fb-b9f7-495a-b2ab-0f5ead8fbb02
+  type: SingleChoice
+  content: A collection of carefully crafted and evaluated policies in Unslashed is known as-
+  hint: No Hint
+  explanation: A Capital Bucket is a group of carefully crafted, evaluated, priced, and put-together insurance policies that insurers can underwrite to reduce their exposure to risk.
+  answerKeys:
+    - C
+  difficultyLevel: "Medium"
+  choices:
+    - content: Token Bucket
+      key: A
+    - content: Policy Pool
+      key: B
+    - content: Capital Bucket
+      key: C
+    - content: Covers Collection
+      key: D
+- uuid: e19c72cc-1fe9-4646-bc7f-91fd18b853a1
+  type: SingleChoice
+  content: Which of the following covers is helpful in the case of smart contract failure or oracle misuse?
+  hint: No Hint
+  explanation: Protocol Cover is helpful in the case of smart contract failure or oracle misuse.
+  answerKeys:
+    - D
+  difficultyLevel: "Medium"
+  choices:
+    - content: Stable Depeg Cover
+      key: A
+    - content: Yield token cover
+      key: B
+    - content: Custody Cover
+      key: C
+    - content: Protocol Cover
+      key: D
+- uuid: 15ddaa2c-c88f-4c41-a11b-bebaf6d93cc0
+  type: SingleChoice
+  content: Which of the following covers is helpful in the case when your DeFi wallet is attacked?
+  hint: No Hint
+  explanation: Custody Cover is helpful in the case when your DeFi wallet is attacked.
+  answerKeys:
+    - A
+  difficultyLevel: "Medium"
+  choices:
+    - content: Custody Cover
+      key: A
+    - content: Yield token cover
+      key: B
+    - content: Custody Cover
+      key: C
+    - content: Stable Depeg Cover
+      key: D
+- uuid: 71fb8cb6-5547-47a3-96bf-8665d03f4ba5
+  type: SingleChoice
+  content: USF is a type of-
+  hint: USF is used to get voting for the functioning of Protocol
+  explanation: USF is a governance token
+  answerKeys:
+    - D
+  difficultyLevel: "Medium"
+  choices:
+    - content: Commodity token
+      key: A
+    - content: Stablecoin
+      key: B
+    - content: Utility Token
+      key: C
+    - content: Governance token
+      key: D
+- uuid: c9936476-f36f-47d6-873d-864d30e80496
+  type: SingleChoice
+  content: How long is the challenge period after the submission of the claim?
+  hint: No Hint
+  explanation: Challenge period after the submission of the claim is of 2 days.
+  answerKeys:
+    - A
+  difficultyLevel: "Low"
+  choices:
+    - content: 2 days
+      key: A
+    - content: 3 days
+      key: B
+    - content: 5 Days
+      key: C
+    - content: 1 week
+      key: D
+- uuid: 3dc617c4-fe4e-44f3-bb96-f8c2f858e53b
+  type: SingleChoice
+  content: Who is the decentralised third-party arbitration agency for Unslashed?
+  hint: No Hint
+  explanation: Kleros is the decentralised third-party arbitration agency for Unslashed. It is used for the verification of the claim.
+  answerKeys:
+    - C
+  difficultyLevel: "Medium"
+  choices:
+    - content: Aragon
+      key: A
+    - content: Jur
+      key: B
+    - content: Kleros
+      key: C
+    - content: Kraken
+      key: D
+- uuid: c721e8f5-c3eb-4832-8f1b-0c3ff353da61
+  type: SingleChoice
+  content: Choose the best option -
+  hint: No Hint
+  explanation: The claimant can apply to the Kleros a number of times, everytime there will be an increase in the charges of the platform.
+  answerKeys:
+    - B
+  difficultyLevel: "Medium"
+  choices:
+    - content: We can apply a number of times to Kleros without an increase in charges
+      key: A
+    - content: We can apply a number of times to Kleros with an increase in charges
+      key: B
+    - content: We cannot apply more than once on Kleros
+      key: C
+
+
+
+
+
+
+
+
