@@ -1,0 +1,52 @@
+- title: Introduction
+  shortTitle: Intro
+  key: intro-to-cover
+  details: |
+    On January 6, 2021, Unslashed went live. It offers smart contract hacks, CeFi exchange hacks, stablecoin depegs, oracle failures, and allows users to create Capital Pools in which capital providers deposit ETH and their risk exposure is restricted to a single insurance policy. There are also structured insurance products called Capital Buckets that spread risk over a number of insurance contracts.
+
+- title: Capital Buckets
+  shortTitle: capital buckets
+  key: capital-buckets
+  details: |
+    A Capital Bucket is a group of carefully crafted, evaluated, priced, and put-together insurance policies that insurers can underwrite to reduce their exposure to risk.
+
+    The first structured capital bucket offered on Unslashed was the Spartan Bucket. Users are safeguarded in six centralised exchanges (loss of money policy), two wallets, eight decentralised applications (DApps), the Chainlink Oracle (oracle failure policy), Lido Finance (slashing protection policy), three custodians, and four peg loss-related precautions. The default maximum exposure may be raised by the DAO by 5% per insurance capacity of the policy.
+
+- title: Cover Pricing
+  shortTitle: cover pricing
+  key: cover-pricing
+  details: |
+    Users of Unslashed can cease the pay-as-you-go policy at any moment, and payments are calculated in real-time. Numerous things affect pricing. Unslashed takes into account the correlations between policies that are a part of the same Capital Buckets in addition to a fair pricing approach that is applied to each policy or policy type. As with conventional actuarial pricing, the pricing also takes loss distributions into consideration. The most current rules allow the premium to change depending on the usage ratio because they include a supply and demand curve.
+
+    Unslashed Developers were able to construct and calibrate models that enable the platform to fairly price risk and structure insurance products by bringing on board quants from traditional finance. All of these models are private, thus trust is necessary because they all come with inherent hazards.
+
+- title: Types of Covers
+  shortTitle: Covers
+  key: covers
+  details: |
+    ### Protocol Cover
+    Protection from losses brought on by the use of a DeFi protocol, such as smart contract vulnerabilities, economic design flaws, assaults involving the manipulation of Oracle data, and governance attacks (malicious players gaining enough voting power to reshape protocol rules that leads to a loss of funds).
+
+    ### Stable Depeg Cover
+    Protection from losses caused by a stablecoin losing the peg to its target fiat currency (such as USDT or DAI) (e.g. USD). This typically offers insurance against a stablecoin's market price deviating from its target value by an amount greater than a predetermined threshold.
+
+    ### Custody Cover
+    Protection against losses resulting from the use of a centralized or custodial (CeFi) cryptocurrency product (e.g. Coinbase, BlockFi). Typically this offers protection against custodian exploits and/or hacks, fund mismanagement and account lock-ups (inability to access funds without prior notification from the custodian).
+
+- title: Tokenomics
+  shortTitle: tokenomics
+  key: tokenomics
+  details: |
+    USF is a governance token. Holders can cast votes on choices affecting the protocol's direction and changes to its specifications. The group will initially control the protocol's settings before gradually switching it over to the Unslashed DAO.
+
+    Capital providers provide resources (such as ETH) to Individual Capital Pools in exchange for yield from the premiums that are paid. The Cover Buyers in the same asset pay these premiums (ETH). Instead, if someone chooses to deposit money into Capital Buckets, they can earn more yield categories, including premiums, income from asset management, and rewards from USF capital mining. Since USF is just being compensated for contributing capital and has no additional benefit, sell pressure is generated, which causes the token value to continuously drop.
+
+- title: Claim Assesment
+  shortTitle: claims
+  key: claims
+  details: |
+    A two-day challenge period follows the submission of a claim, during which anyone, inside or outside of the Unslashed Finance DAO, may contest the claim by putting down a deposit. The claimant receives the desired payment if the claim is not contested. In the event that the claim is contested, Kleros, a decentralised third-party arbitration agency, is contacted. After reviewing the claimant's proof and cover letter, a third-party jury within Kleros determines whether to accept, reject, or refuse to consider the claim (majority vote decides). The claimant receives the amount sought, the claim deposit, and the challenger's deposit less arbitration fees if the claim is approved by Kleros.
+
+    If the jury declines to render a decision both the claimant and the challenger will have their deposits back and the arbitration fees will be shared. The sum demanded by the claimant is not granted. There is no cap on the number of times a claim may be appealed through Kleros, however, it's crucial to understand that the cost of appeal increases with each Kleros appeal. If the claim is ultimately rejected by a Kleros arbitration, it may be resubmitted once via the Unslashed dApp.
+
+

@@ -385,6 +385,340 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "title": "Unslashed",
+      "key": "unslashed",
+      "details": "Later\n",
+      "order": 2,
+      "explanations": [
+        {
+          "title": "Introduction",
+          "shortTitle": "Intro",
+          "key": "intro-to-cover",
+          "details": "On January 6, 2021, Unslashed went live. It offers smart contract hacks, CeFi exchange hacks, stablecoin depegs, oracle failures, and allows users to create Capital Pools in which capital providers deposit ETH and their risk exposure is restricted to a single insurance policy. There are also structured insurance products called Capital Buckets that spread risk over a number of insurance contracts.\n"
+        },
+        {
+          "title": "Capital Buckets",
+          "shortTitle": "capital buckets",
+          "key": "capital-buckets",
+          "details": "A Capital Bucket is a group of carefully crafted, evaluated, priced, and put-together insurance policies that insurers can underwrite to reduce their exposure to risk.\n\nThe first structured capital bucket offered on Unslashed was the Spartan Bucket. Users are safeguarded in six centralised exchanges (loss of money policy), two wallets, eight decentralised applications (DApps), the Chainlink Oracle (oracle failure policy), Lido Finance (slashing protection policy), three custodians, and four peg loss-related precautions. The default maximum exposure may be raised by the DAO by 5% per insurance capacity of the policy.\n"
+        },
+        {
+          "title": "Cover Pricing",
+          "shortTitle": "cover pricing",
+          "key": "cover-pricing",
+          "details": "Users of Unslashed can cease the pay-as-you-go policy at any moment, and payments are calculated in real-time. Numerous things affect pricing. Unslashed takes into account the correlations between policies that are a part of the same Capital Buckets in addition to a fair pricing approach that is applied to each policy or policy type. As with conventional actuarial pricing, the pricing also takes loss distributions into consideration. The most current rules allow the premium to change depending on the usage ratio because they include a supply and demand curve.\n\nUnslashed Developers were able to construct and calibrate models that enable the platform to fairly price risk and structure insurance products by bringing on board quants from traditional finance. All of these models are private, thus trust is necessary because they all come with inherent hazards.\n"
+        },
+        {
+          "title": "Types of Covers",
+          "shortTitle": "Covers",
+          "key": "covers",
+          "details": "### Protocol Cover\nProtection from losses brought on by the use of a DeFi protocol, such as smart contract vulnerabilities, economic design flaws, assaults involving the manipulation of Oracle data, and governance attacks (malicious players gaining enough voting power to reshape protocol rules that leads to a loss of funds).\n\n### Stable Depeg Cover\nProtection from losses caused by a stablecoin losing the peg to its target fiat currency (such as USDT or DAI) (e.g. USD). This typically offers insurance against a stablecoin's market price deviating from its target value by an amount greater than a predetermined threshold.\n\n### Custody Cover\nProtection against losses resulting from the use of a centralized or custodial (CeFi) cryptocurrency product (e.g. Coinbase, BlockFi). Typically this offers protection against custodian exploits and/or hacks, fund mismanagement and account lock-ups (inability to access funds without prior notification from the custodian).\n"
+        },
+        {
+          "title": "Tokenomics",
+          "shortTitle": "tokenomics",
+          "key": "tokenomics",
+          "details": "USF is a governance token. Holders can cast votes on choices affecting the protocol's direction and changes to its specifications. The group will initially control the protocol's settings before gradually switching it over to the Unslashed DAO.\n\nCapital providers provide resources (such as ETH) to Individual Capital Pools in exchange for yield from the premiums that are paid. The Cover Buyers in the same asset pay these premiums (ETH). Instead, if someone chooses to deposit money into Capital Buckets, they can earn more yield categories, including premiums, income from asset management, and rewards from USF capital mining. Since USF is just being compensated for contributing capital and has no additional benefit, sell pressure is generated, which causes the token value to continuously drop.\n"
+        },
+        {
+          "title": "Claim Assesment",
+          "shortTitle": "claims",
+          "key": "claims",
+          "details": "A two-day challenge period follows the submission of a claim, during which anyone, inside or outside of the Unslashed Finance DAO, may contest the claim by putting down a deposit. The claimant receives the desired payment if the claim is not contested. In the event that the claim is contested, Kleros, a decentralised third-party arbitration agency, is contacted. After reviewing the claimant's proof and cover letter, a third-party jury within Kleros determines whether to accept, reject, or refuse to consider the claim (majority vote decides). The claimant receives the amount sought, the claim deposit, and the challenger's deposit less arbitration fees if the claim is approved by Kleros.\n\nIf the jury declines to render a decision both the claimant and the challenger will have their deposits back and the arbitration fees will be shared. The sum demanded by the claimant is not granted. There is no cap on the number of times a claim may be appealed through Kleros, however, it's crucial to understand that the cost of appeal increases with each Kleros appeal. If the claim is ultimately rejected by a Kleros arbitration, it may be resubmitted once via the Unslashed dApp.\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "e24b46ea-a887-4507-ba2f-0f093ae9ba10",
+          "type": "SingleChoice",
+          "content": "Who is the founder of Unslashed?",
+          "hint": "No Hint",
+          "explanation": "Dimitriy Remerov, Marouane Hajji, Dominik Franek and Peter Uljvari are the founders of Unslashed insurance platform.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Vitalik Buterin",
+              "key": "A"
+            },
+            {
+              "content": "Hugh Karp",
+              "key": "B"
+            },
+            {
+              "content": "Mike Miglio",
+              "key": "C"
+            },
+            {
+              "content": "Dimitriy Remerov",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "44f75120-988b-4c2b-a5e0-f7e8e6e803e0",
+          "type": "SingleChoice",
+          "content": "Which of the following is/are an insurance cover provided by unslashed?",
+          "hint": "Types of covers by Unslashed",
+          "explanation": "There are three types of covers offered by Unslashed - Stable Depeg Cover, Custody Cover and Protcol Cover",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stable Depeg cover",
+              "key": "A"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "B"
+            },
+            {
+              "content": "Yield Cover",
+              "key": "C"
+            },
+            {
+              "content": "Both A and B",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9d71b077-e9f8-4679-8776-45ffcfcbf577",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is used when the stable loses its peg to the target fiat currency by Unslashed?",
+          "hint": "No Hint",
+          "explanation": "Stable Depeg Cover is used when the stable loses its peg to the target fiat currency by Unslashed.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Stable Depeg cover",
+              "key": "A"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "B"
+            },
+            {
+              "content": "Yield Cover",
+              "key": "C"
+            },
+            {
+              "content": "Protcol Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fbfda3fb-b9f7-495a-b2ab-0f5ead8fbb02",
+          "type": "SingleChoice",
+          "content": "A collection of carefully crafted and evaluated policies in Unslashed is known as-",
+          "hint": "No Hint",
+          "explanation": "A Capital Bucket is a group of carefully crafted, evaluated, priced, and put-together insurance policies that insurers can underwrite to reduce their exposure to risk.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Token Bucket",
+              "key": "A"
+            },
+            {
+              "content": "Policy Pool",
+              "key": "B"
+            },
+            {
+              "content": "Capital Bucket",
+              "key": "C"
+            },
+            {
+              "content": "Covers Collection",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e19c72cc-1fe9-4646-bc7f-91fd18b853a1",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is helpful in the case of smart contract failure or oracle misuse?",
+          "hint": "No Hint",
+          "explanation": "Protocol Cover is helpful in the case of smart contract failure or oracle misuse.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Stable Depeg Cover",
+              "key": "A"
+            },
+            {
+              "content": "Yield token cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Protocol Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "15ddaa2c-c88f-4c41-a11b-bebaf6d93cc0",
+          "type": "SingleChoice",
+          "content": "Which of the following covers is helpful in the case when your DeFi wallet is attacked?",
+          "hint": "No Hint",
+          "explanation": "Custody Cover is helpful in the case when your DeFi wallet is attacked.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Custody Cover",
+              "key": "A"
+            },
+            {
+              "content": "Yield token cover",
+              "key": "B"
+            },
+            {
+              "content": "Custody Cover",
+              "key": "C"
+            },
+            {
+              "content": "Stable Depeg Cover",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "71fb8cb6-5547-47a3-96bf-8665d03f4ba5",
+          "type": "SingleChoice",
+          "content": "USF is a type of-",
+          "hint": "USF is used to get voting for the functioning of Protocol",
+          "explanation": "USF is a governance token",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Commodity token",
+              "key": "A"
+            },
+            {
+              "content": "Stablecoin",
+              "key": "B"
+            },
+            {
+              "content": "Utility Token",
+              "key": "C"
+            },
+            {
+              "content": "Governance token",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c9936476-f36f-47d6-873d-864d30e80496",
+          "type": "SingleChoice",
+          "content": "How long is the challenge period after the submission of the claim?",
+          "hint": "No Hint",
+          "explanation": "Challenge period after the submission of the claim is of 2 days.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "2 days",
+              "key": "A"
+            },
+            {
+              "content": "3 days",
+              "key": "B"
+            },
+            {
+              "content": "5 Days",
+              "key": "C"
+            },
+            {
+              "content": "1 week",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3dc617c4-fe4e-44f3-bb96-f8c2f858e53b",
+          "type": "SingleChoice",
+          "content": "Who is the decentralised third-party arbitration agency for Unslashed?",
+          "hint": "No Hint",
+          "explanation": "Kleros is the decentralised third-party arbitration agency for Unslashed. It is used for the verification of the claim.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Aragon",
+              "key": "A"
+            },
+            {
+              "content": "Jur",
+              "key": "B"
+            },
+            {
+              "content": "Kleros",
+              "key": "C"
+            },
+            {
+              "content": "Kraken",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c721e8f5-c3eb-4832-8f1b-0c3ff353da61",
+          "type": "SingleChoice",
+          "content": "Choose the best option -",
+          "hint": "No Hint",
+          "explanation": "The claimant can apply to the Kleros a number of times, everytime there will be an increase in the charges of the platform.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "We can apply a number of times to Kleros without an increase in charges",
+              "key": "A"
+            },
+            {
+              "content": "We can apply a number of times to Kleros with an increase in charges",
+              "key": "B"
+            },
+            {
+              "content": "We cannot apply more than once on Kleros",
+              "key": "C"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
     }
   ]
 }
