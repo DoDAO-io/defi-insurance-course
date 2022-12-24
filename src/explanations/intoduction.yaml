@@ -119,9 +119,9 @@
 
 
     Insurers need to calculate the average cost of claims over time, or loss
-    severity. If the average claim costs the  company $1,000, then the Actuary
-    will predict that total losses for the upcoming year will be $2,000 (two
-    claims  at $1,000 each).
+    severity. If the average claim costs the  company `$1,000`, then the Actuary
+    will predict that total losses for the upcoming year will be `$2,000` (two
+    claims  at `$1,000` each).
 
 
     The law of large numbers says that as the number of policyholders increases,
