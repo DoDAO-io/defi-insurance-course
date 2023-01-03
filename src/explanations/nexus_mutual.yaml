@@ -1,7 +1,7 @@
 - key: intro-to-covers
   title: Introduction
   shortTitle: Intro
-  details: >-
+  details: >
     ## Intro to Nexus Mutual
 
     Nexus Mutual is a discretionary mutual that allows members to buy cover
@@ -37,6 +37,24 @@
 
 
     ## Claim Assessment
+
+    Members who stake NXM act as claim assessors and decide whether to approve a
+    claim. The claims are processed within 72 hours. For a claim that needs
+    approval, the loss of funds must-
+
+
+    1. Fall into various categories which are mentioned in the cover policy
+    contract
+
+    2. Occur within the defined time period
+
+    3. Be significant enough to account for as a claim
+
+
+    The claimant must additionally provide evidence of their loss or that they
+    were unable to withdraw money. This might be a 0-value transaction or a
+    signature. An account statement, a notification from the protocol describing
+    a hack, or another sort of warning could serve as additional proof.
 - title: Types of Covers
   shortTitle: Covers
   key: covers
