@@ -4,27 +4,23 @@
   details: >
     ## Intro to Nexus Mutual
 
-    Nexus Mutual is a discretionary mutual that allows members to buy cover
-    products to protect against material losses when transferring funds into a
-    protocol’s smart contracts or keeping funds with a custodian. Members can
-    hold NXM tokens, which represent proportional ownership of the mutual, buy
-    cover products, contribute to the funds, assess risks or claims, and
-    participate in governance by creating new proposals or voting on them. Nexus
-    Mutual is the most significant DeFi insurance protocol in the cryptocurrency
-    market. 
+    Nexus Mutual is a decentralized insurance platform that uses blockchain
+    technology to create a risk-sharing pool in the form of a mutual. The
+    platform is built on the Ethereum public chain and allows anyone to become a
+    member and purchase cover. It replaces the idea of a traditional insurance
+    company because it is wholly owned by the members. The model encourages
+    engagement as members will get economic incentives for participating in risk
+    assessment, claims assessment, and governance.
 
 
-    Nexus Mutual is a decentralized protocol that enables organizations and
-    people to buy insurance policies that guard against the particular risks
-    associated with platforms that are decentralized (DeFi) or centralized
-    (CeFi). Without the need for a centralized insurance provider, Nexus Mutual
-    is an Ethereum-based platform that enables users from all over the world to
-    share insurance risks. The members of the Nexus Mutual platform decide
-    whether claims are legitimate, and smart contracts record and enforce their
-    choices. This eliminates the need to have faith in an insurance company
-    because claim payments are enforced by token-driven economic incentives. All
-    mutual members have legal agreements supporting their membership rights,
-    represented by cryptocurrency tokens used throughout the insurance platform.
+    ## Membership Requirements
+
+    Becoming a member of the NXM mutual gives you ownership rights to the assets
+    of the company, and a one-time membership fee of 0.0020 ETH. In order to
+    become a member, you will need to verify your identity using our
+    Know-Your-Customer (KYC) process. The NXM token represents membership rights
+    in the mutual, with all members owning the company together in proportion to
+    their individual NXM holdings.
 
 
     ## Risk Assessment and Staking
