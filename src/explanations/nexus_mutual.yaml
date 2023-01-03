@@ -1,12 +1,15 @@
 - key: intro-to-covers
   title: Introduction
   shortTitle: Intro
-  details: >
-    Nexus Mutual is the most significant Defi insurance protocol in the
-    cryptocurrency market. Its Total Value Locked (TVL) as of 1 May 2021 is
-    `$450 million`, as opposed to `$7 million` for Cover Protocol, the
-    second-largest Defi insurance protocol. Hugh Karp, a former CFO of Munich Re
-    in the UK, launched Nexus Mutual.
+  details: >+
+    Nexus Mutual is a discretionary mutual that allows members to buy cover
+    products to protect against material losses when transferring funds into a
+    protocol’s smart contracts or keeping funds with a custodian. Members can
+    hold NXM tokens, which represent proportional ownership of the mutual, buy
+    cover products, contribute to the funds, assess risks or claims, and
+    participate in governance by creating new proposals or voting on them. Nexus
+    Mutual is the most significant DeFi insurance protocol in the cryptocurrency
+    market. 
 
 
     Nexus Mutual is a decentralized protocol that enables organizations and
@@ -20,6 +23,7 @@
     because claim payments are enforced by token-driven economic incentives. All
     mutual members have legal agreements supporting their membership rights,
     represented by cryptocurrency tokens used throughout the insurance platform.
+
 - title: Types of Covers
   shortTitle: Covers
   key: covers
