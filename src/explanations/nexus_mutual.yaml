@@ -1,7 +1,9 @@
 - key: intro-to-covers
   title: Introduction
   shortTitle: Intro
-  details: >+
+  details: >-
+    ## Intro to Nexus Mutual
+
     Nexus Mutual is a discretionary mutual that allows members to buy cover
     products to protect against material losses when transferring funds into a
     protocol’s smart contracts or keeping funds with a custodian. Members can
@@ -24,6 +26,17 @@
     mutual members have legal agreements supporting their membership rights,
     represented by cryptocurrency tokens used throughout the insurance platform.
 
+
+    ## Risk Assessment and Staking
+
+    Members in Nexus Mutual can earn rewards for staking against the security of
+    a protocol or custodian. This means that Nexus Mutual stakers may lose their
+    stake if a successful claim is made against the security of a protocol or
+    custodian. Therefore, staking with Nexus Mutual should be considered as
+    active rather than passive staking.
+
+
+    ## Claim Assessment
 - title: Types of Covers
   shortTitle: Covers
   key: covers
