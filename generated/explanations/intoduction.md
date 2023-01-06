@@ -24,12 +24,11 @@ Most Decentralized Finance protocols share profits among participants, and allow
 By having data on the blockchain, anyone can query it and see how it has changed over time. This develops confidence and also enables people outside the organization to provide critical feedback and insights.
 ### 6. Innovation Traditional insurance companies are hamstrung by bureaucracy and are slow to address newer, unestablished sectors.  However, the composable nature of DeFi primitives enables rapid innovation and offers new business models that are  not available in traditional insurance companies.
 For example, the crypto industry currently holds around $800 billion, but only a tiny percentage of that is insured.  Now there are a few DeFi insurance companies that offer crypto insurance which includes smart contract exploits, loss  of funds etc. This provides a much needed service for the rapidly growing crypto industry. 
+ **Innovative DeFi Insurance Models**        
+fsdf 
  **Other Content**        
 
-
-
-## Rise of Crypto
-The rise of blockchain and crypto currencies has brought about a number of changes in the technology and financial sector, which has in turn opened up the possibility - and need - for new types of organizations and products which did not exist before. 
+## Rise of Crypto The rise of blockchain and crypto currencies has brought about a number of changes in the technology and financial sector, which has in turn opened up the possibility - and need - for new types of organizations and products which did not exist before. 
 
 We've seen a lot of new, innovative ways to raise capital, align community interests, and make rewards or payments using a native currency. And on the human coordination front, we see that teams of hundreds or thousands of people can work together towards a common goal with aligned incentives. The members can choose to be completely anonymous. Blockchain Technology has made it easy to write small software programs (smart contracts) that can lay out completely flexible rules on how money can be collected or given out. 
 
