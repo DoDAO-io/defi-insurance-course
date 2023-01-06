@@ -6,9 +6,23 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Nexus Mutual
  
  **Introduction**        
-Nexus Mutual is the most significant Defi insurance protocol in the cryptocurrency market. Its Total Value Locked (TVL) as of 1 May 2021 is $450 million, as opposed to $7 million for Cover Protocol, the second-largest Defi insurance protocol. Hugh Karp, a former CFO of Munich Re in the UK, launched Nexus Mutual.
+## Intro to Nexus Mutual
+Nexus Mutual is a decentralized insurance platform that uses blockchain technology to create a risk-sharing pool in the form of a mutual. The platform is built on the Ethereum public chain and allows anyone to become a member and purchase cover. It replaces the idea of a traditional insurance company because it is wholly owned by the members. The model encourages engagement as members will get economic incentives for participating in risk assessment, claims assessment, and governance.
 
-Nexus Mutual is a decentralized protocol that enables organizations and people to buy insurance policies that guard against the particular risks associated with platforms that are decentralized (DeFi) or centralized (CeFi). Without the need for a centralized insurance provider, Nexus Mutual is an Ethereum-based platform that enables users from all over the world to share insurance risks. The members of the Nexus Mutual platform decide whether claims are legitimate, and smart contracts record and enforce their choices. This eliminates the need to have faith in an insurance company because claim payments are enforced by token-driven economic incentives. All mutual members have legal agreements supporting their membership rights, represented by cryptocurrency tokens used throughout the insurance platform.
+## Membership Requirements
+Becoming a member of the NXM mutual gives you ownership rights to the assets of the company, and a one-time membership fee of 0.0020 ETH. In order to become a member, you will need to verify your identity using our Know-Your-Customer (KYC) process. The NXM token represents membership rights in the mutual, with all members owning the company together in proportion to their individual NXM holdings.
+
+## Risk Assessment and Staking
+Members in Nexus Mutual can earn rewards for staking against the security of a protocol or custodian. This means that Nexus Mutual stakers may lose their stake if a successful claim is made against the security of a protocol or custodian. Therefore, staking with Nexus Mutual should be considered as active rather than passive staking.
+
+## Claim Assessment
+Members who stake NXM act as claim assessors and decide whether to approve a claim. The claims are processed within 72 hours. For a claim that needs approval, the loss of funds must-
+
+1. Fall into various categories which are mentioned in the cover policy contract
+2. Occur within the defined time period
+3. Be significant enough to account for as a claim
+
+The claimant must additionally provide evidence of their loss or that they were unable to withdraw money. This might be a 0-value transaction or a signature. An account statement, a notification from the protocol describing a hack, or another sort of warning could serve as additional proof.
  
  **Types of Covers**        
 Nexus Mutual consists of three types of covers-
