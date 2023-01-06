@@ -21,9 +21,7 @@
     3) ~30-40% of capital goes towards operational expenses. 
     4) High capital requirements makes it difficult for startups to join the industry, which in turn stifles innovation.
     5) Core insurance business models are decades old and have seen little innovation in recent years.
-    6) The insurance industry is notoriously slow-moving and risk-averse, which has 
-          resulted in many sectors being left out and not enjoying the benefits of insurance. For example, the crypto 
-          industry currently holds around $800 billion, but only a tiny percentage of that is insured.
+    6) The insurance industry is notoriously slow-moving and risk-averse, which has resulted in many sectors being left out and not enjoying the benefits of insurance.
 
 - key: defi-and-insurance
   title: DeFi and Inusrance
@@ -79,6 +77,16 @@
 
     By having data on the blockchain, anyone can query it and see how it has changed over time. This develops confidence and
     also enables people outside the organization to provide critical feedback and insights.
+    
+    ### 6. Innovation
+    Traditional insurance companies are hamstrung by bureaucracy and are slow to address newer, unestablished sectors. 
+    However, the composable nature of DeFi primitives enables rapid innovation and offers new business models that are 
+    not available in traditional insurance companies.
+
+    For example, the crypto industry currently holds around $800 billion, but only a tiny percentage of that is insured. 
+    Now there are a few DeFi insurance companies that offer crypto insurance which includes smart contract exploits, loss 
+    of funds etc. This provides a much needed service for the rapidly growing crypto industry.
+
 - key: other-content
   title: Other Content
   shortTitle: Other
