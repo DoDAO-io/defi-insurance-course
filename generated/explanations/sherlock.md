@@ -25,7 +25,7 @@ In case sherlock does not have enough TVL to cover the insurance bought by a pro
  **Staking mechanism and rewards**        
 ### Staking
 
-Users can deposit their USDC into Sherlock for fixed periods like 6 or 12 months. For this, they reward the user with USDC rewards and SHER rewards. SHER is the governance token of Sherlock  protocol. On staking, the user accepts the risk that up to 50% of their staked USDC could be slashed in the case of an attack (claim).
+Users can deposit their USDC into Sherlock for fixed periods like 6 or 12 months. For this, they reward the user with USDC rewards and SHER rewards. SHER is the governance token of Sherlock  protocol. On staking, the user accepts the risk that up to 50% of their staked USDC could be slashed in the case of one or multiple claim(s).
 
 ### Rewards
 
