@@ -737,6 +737,380 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "title": "Ease",
+      "key": "ease",
+      "details": "Later\n",
+      "order": 3,
+      "explanations": [
+        {
+          "key": "intro-to-RCA",
+          "title": "Introduction",
+          "shortTitle": "Intro",
+          "details": "### What is RCA \nThe present approach for offering protection to users against various risks is similar to that of traditional financial institutions: underwriters provide funding, evaluate risk, establish a cost for coverage, and users buy a policy.  This strategy has been effective so far but also has several drawbacks:  * the extent of coverage that can be offered is limited by the underwriters' available capital * leverage is necessary for the underwriters to be compensated adequately, which raises the possibility of bankruptcy * determining the premium prices is challenging given the limited data and fast-paced nature of the industry.\n\n Reciprocal insurance, on the other hand, does not charge premiums, and payments are only made when a loss occurs in\none of the vaults of the ecosystem. At that point, a small percentage of every vault is liquidated to compensate the affected vault.\n This system operates like a reciprocal inter-insurance exchange, in which users/subscribers essentially cover each\nother against risk. However, all policies are transparent, with no premiums being paid in advance, and there is no reserve capital. This eliminates the complications associated with traditional coverage, such as risk-based pricing, premiums, underwriting, supply issues, solvency and more.\n This approach ensures that users pay only what is necessary, without any additional costs, no profit for\nunderwriters and no concern of insolvency.\n"
+        },
+        {
+          "title": "How RCA is different from traditional Insurance",
+          "shortTitle": "How RCA differs",
+          "key": "difference-rca-trad",
+          "details": "### How RCA is different from Traditional Insurance\n|                                                                    Traditional Insurance                                                                   \t|                                                                                                                            RCA                                                                                                                            \t| |:----------------------------------------------------------------------------------------------------------------------------------------------------------:\t|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:\t| | Premiums are paid upfront to cover the assets                                                                                                              \t| No upfront or continuous premiums are required to maintain the coverage                                                                                                                                                                                   \t| | High capital is needed to make the protocol profitable                                                                                                     \t| No large amounts of initial funding required. Fund's in the ecosystem underwrite themselves                                                                                                                                                               \t| | Premiums are charged periodically till the duration of the policy                                                                                          \t| User will be charged only when loss event occurs                                                                                                                                                                                                          \t| | Capital Providers provide capital that can be used by the insurance company to pay off the claims.                                                         \t| Capital is pooled by the insured. So if there is no claim, the pool remains the same and people who get the cover end up paying almost nothing.                                                                                                           \t| | For selling the insurance user's asset doesn't need to be verified.                                                                                        \t| To include a user/protocol in the coverage, assets need to be verified.  In DeFi since user or protocols have full custody of their assets, RCA is simpler to implement in DeFi as compared to other industries because assets can be verified on chain.  \t| | In case some user/customer in the insurance company loses funds, it doesn't impact other insureds.  As each insured pays premiums only for their coverage. \t| If anyone in the pool loses funds, every other party in the pool can be impacted. If the number of users or participants is very high, the impact should be very low                                                                                      \t|\n              \n"
+        },
+        {
+          "title": "How Ease works",
+          "shortTitle": "Ease protocol",
+          "key": "ease-working",
+          "details": "### How Ease works\nWith regard to assets that are covered reciprocally, there are no initial expenses. Remuneration is only disbursed in the event of a claimable occurrence, at which point a minimal sum is drawn from each vault to repay the loss, which is denominated either in Ether or a stablecoin. Vaults are smart-contracts which will store user's assets and mints ez-tokens as a proof of deposition. \nIn a basic reciprocal coverage system, the loss incurred by each vault (Li) is computed by taking the same percentage of funds from the vault's value (Vi) as the total funds lost (TL) from the overall value of all vaults (TV L). Mathematically, this can be represented as: Li = Vi * TL / TV L.\nEase protocol works based on RCA (reciprocally covered assets). This means that the assets are covered by the sheets themselves, unlike traditional insurance where there are requirements of underwriters to cover the assets. With Ease protocol, there are no premiums required to cover assets. Users are only charged in the event of hacks or loss, which reduces unnecessary premiums.\nThe RCA model basically distributes the loss across all vaults. This means that if there is a loss in one vault, it is covered by the other vaults in the system. This makes Ease protocol a more efficient and cost-effective way to insure assets.\nWhen a hack occurs, the admin freezes the reserve amount in each vault according to their maximum fee. This amount won't be available for withdrawal. The admin sets the amount to be liquidated from the reserve amount. This amount will be unique to each vault, based on safety ranking and total loss from the hack. The DAO votes and confirms to liquidate assets for each vault.\nFor example, if we have 10 vaults with equal values rated from riskiest to safest, a hack occurs\nthat affects 0.1% of the ecosystem, and the maximum percent that can be liquidated from each before moving onto the next is 0.5%, we will liquidate the maximum from the 2 riskiest vaults before the loss is fully compensated. If the hack affected more than 0.5% of the ecosystem, the liquidations would simply loop back around to the riskiest protocol and continue, so a hack affecting 0.75% of the ecosystem would end up liquidating 1% from each of the riskiest 5 protocols and 0.5% from each of the safest 5 protocols.\n"
+        },
+        {
+          "title": "Claim Assesment and guidelines for coverage",
+          "shortTitle": "sher token",
+          "key": "claim-coverage",
+          "details": "### The Conditions or guidelines for Coverage of assets\n* In the event of a deliberate manipulation of the Oracle system that causes panic or unauthorized withdrawal of assets, resulting in a crash, assets are covered.\n* In instances where there is a discrepancy from intended data sources that leads to Oracle failure, assets are covered.\n* If the code is used in a malicious or unintended manner, resulting in the withdrawal of assets from the protocol stack, assets are covered.\n* If there is an economic design failure that results in the unintentional confiscation or seizure of underlying assets deposited into the  top protocol or stack directly by the RCA vault, assets are covered.\n* In the case of a deliberate governance attack, the decisions in the Ease protocols are made by the DAO and there is a possibility of attack  by the governance, assets are covered.\n* In the event of a privileged authority acting in bad faith (such as a rug pull) resulting in unnecessary or unintended withdrawal of assets,  assets are covered.\n* If there is negligence or a lack of proper security measures by someone with privileged authority within the framework of a protocol that results in the  withdrawal of assets without the proper owner's knowledge or permission (e.g. a phishing attempt compromising an administrator's credentials, resulting in  loss of assets from the protocol directly), assets are covered. \nIt is important to note that these guidelines and the decisions made based on them will be determined by the DAO.\n\n### Claim Assessment\nIn the event of a security breach or hack, also known as a \"covered event,\" protocol will be implemented to safeguard all assets stored in the vaults. The claims process will be initiated immediately upon the occurrence of a covered event, during which all assets will be frozen to prevent unauthorized liquidation. The liquidation of these frozen assets will be conducted in order to compensate for any losses sustained. Claim payouts will be distributed in the form of Ether or other fiat-denominated stablecoins to the affected vaults. Following the claims process, users will regain access to their assets and will be able to withdraw them.\nThe claims process in this system is designed to be simple and efficient, as the losses incurred are directly tied to the vaults rather than individual users. As a result, there is no need for claimants to provide proof of loss in order to receive coverage. Losses can be immediately verified by evaluating the impacted vaults, allowing for swift compensation. The Decentralized Autonomous Organization (DAO) will vote on the appropriate amount to be paid to each affected vault, and once the funds have been allocated, the frozen assets will be unfrozen and made available for withdrawal.\nThe value of a vault after a hack covered event or after a hack is given below\nNew value of vault = N\nOld value of vault = O\nNew total value locked in RCA = C<sub>N</sub>\nOld total value locked in RCA = C<sub>O</sub>\nthen,\nN = O*C<sub>N</sub>/  C<sub>O</sub>\n"
+        },
+        {
+          "title": "Tokens",
+          "shortTitle": "tokens",
+          "key": "tokens",
+          "details": "\n### $EASE\nThe $EASE token is a tradeable Ethereum-based (ERC-20) token with a finite supply. It offers various levels of utility in the Ease DeFi Uninsurance system. The Ease tokens can be used for bribing. It can be staked to get the $gvEASE tokens.\nSince Ease is the upgraded version or next version of ArmourFi, the supply of $EASE and $Armor stays the same. The Armour tokens can be swapped for ease in 1:1 ratio.\n\n#### History of $EASE token\n1 billion Ease tokens were initially minted, but 250 million were sent to a burn address. The remaining 750 million $EASE is the maximum supply, but 250 million $EASE can be minted through a contract. This can only happen after a DAO vote, and even the team cannot mint extra tokens. The Ease DAO will control the majority of the tokens, i.e. 400 million.\n### $gvEASE\nThe $gvEase tokens are minted by staking the $Ease tokens. These are growing vote tokens which will grow in time.\nThe $gvEASE token is a unique digital asset that offers a number of properties for users to take advantage of. Firstly, it is not tradable, meaning it cannot be bought or sold on any market. However, the staked Ease tokens can be withdrawn at any time, giving users the flexibility to move their funds as they see fit. However, it is important to note that if the $EASE is withdrawn, the user will receive the $EASE tokens but any additional $gvEASE will be lost.\nAnother unique property of the $gvEASE is that it can be stacked in vaults. By doing so, the maximum fee is lowered for the vaults, which is the maximum possible fee that can be deducted in case of hack events. Additionally, users can also lease their $gvEASE tokens and earn weekly $EASE rewards. This is a popular option among vaults that have very low maximum fees, as they can earn rewards while still having their $gvEASE available to them for use in DAO voting.\nIt's important to note that $gvEASE tokens can only be used for staking, not for DAO voting. This is because the ownership of the token remains the same, regardless of whether it is being used for staking or voting. In other words, the briber can only use $gvEASE for staking, but not for participating in DAO voting. This ensures that the integrity of the DAO voting process is maintained.\nThe main uses of $gvEASE tokens\n* $gvEASE tokens are used for DAO voting.\n* $gvEASE tokens are used for staking in the vaults which will reduce the maximum fee.\n### Bribes and Leasing\nUsers who want to reduce the maximum fee for their desired vaults can offer $EASE tokens as a bribe to $gvEASE holders. Protocols or users interested in reducing their vaults' max fees can buy $EASE tokens and offer them to $gvEASE holders as a bribe. Bribed $gvEASE cannot be used for DAO votes.\nThe users can lease their $gvEASE tokens to get weekly $EASE rewards. The leased $gvEASE can be used for staking, but it cannot be used for DAO voting. Mostly, the vaults with very low maximum fees will lease $gvEASE tokens.\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "152d3924-1a69-4254-a6f4-65c2fc27ea78",
+          "type": "SingleChoice",
+          "content": "What is the name of the approach used in Ease protocol to protect users against risks?",
+          "hint": "NoHint",
+          "explanation": "The RCA is a way for users/subscribers to protect themselves against risk. It operates like an reciprocal insurance exchange, in which users essentially cover each other.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "RCA",
+              "key": "A"
+            },
+            {
+              "content": "Traditional coverage",
+              "key": "B"
+            },
+            {
+              "content": "Risk-based pricing",
+              "key": "C"
+            },
+            {
+              "content": "Premiums",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c405a256-25de-4725-b3d0-99c013c79889",
+          "type": "SingleChoice",
+          "content": "Does RCA require premiums to be paid in advance?",
+          "hint": "NoHint",
+          "explanation": "RCA doesn't require any premiums users are only charged at the event of hacks usually known as \"covered events\".",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Yes",
+              "key": "A"
+            },
+            {
+              "content": "No",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "161cc6a3-fe95-4711-88d4-4a1bde3255b5",
+          "type": "SingleChoice",
+          "content": "What are the advantages of using Ease protocol compared to traditional insurance methods?",
+          "hint": "NoHint",
+          "explanation": "Ease protocol is more cost effective compared to the traditional insurance as the user's assets will act as a collateral. \nUsers are charged only at the events of hack. No proof of loss is required to cover the assets as the claims can be easily verified.\n",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It is more efficient and cost-effective",
+              "key": "A"
+            },
+            {
+              "content": "It eliminates unnecessary premiums",
+              "key": "B"
+            },
+            {
+              "content": "No proof of loss is required for coverage",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "56fbe5a0-3522-4654-a0ef-71f183da5564",
+          "type": "SingleChoice",
+          "content": "Who confirms to liquidate assets for each vault in Ease protocol?",
+          "hint": "NoHint",
+          "explanation": "The DAO will confirm to liquidate the assets to cover the affected vaults.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The admin",
+              "key": "A"
+            },
+            {
+              "content": "The user",
+              "key": "B"
+            },
+            {
+              "content": "The DAO",
+              "key": "C"
+            },
+            {
+              "content": "The underwriter",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0a7802d8-7aed-4956-83ec-613a78a55ce2",
+          "type": "SingleChoice",
+          "content": "How is the amount to be liquidated from each vault determined in Ease protocol?",
+          "hint": "NoHint",
+          "explanation": "The loss amount in each vault to be calculated depends on the safety ranking, maximum fee and total loss from the hack.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Based on the maximum fee",
+              "key": "A"
+            },
+            {
+              "content": "Based on the safety ranking",
+              "key": "B"
+            },
+            {
+              "content": "Based on the total loss from the hack",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0e82aee3-005d-4300-8106-2d5f0ca3c900",
+          "type": "SingleChoice",
+          "content": "What is the proof of deposition in Ease protocol?",
+          "hint": "NoHint",
+          "explanation": "The user's will recieve ez-tokens after depositing in the vault as a proof of deposition.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Smart-contracts",
+              "key": "A"
+            },
+            {
+              "content": "ez-tokens",
+              "key": "B"
+            },
+            {
+              "content": "Reserve amount",
+              "key": "C"
+            },
+            {
+              "content": "Premiums",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f1034ba32-de8a-41f8-9dc0-156d899dba8e",
+          "type": "SingleChoice",
+          "content": "What is the format in which claim payouts will be distributed in Ease DeFi Uninsurance system?",
+          "hint": "NoHint",
+          "explanation": "Claim payouts will be distributed in the form of Ether or other fiat-denominated stablecoins to the affected vaults.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Ether",
+              "key": "A"
+            },
+            {
+              "content": "Stablecoin",
+              "key": "B"
+            },
+            {
+              "content": "$EASE token",
+              "key": "C"
+            },
+            {
+              "content": "Both A and B",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c4932eef-a279-45df-b40b-f33163108080",
+          "type": "SingleChoice",
+          "content": "Is it necessary for claimants to provide proof of loss in order to receive coverage?",
+          "hint": "NoHint",
+          "explanation": "There is no need for claimants to provide proof of loss in order to receive coverage.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Yes",
+              "key": "A"
+            },
+            {
+              "content": "No",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "06c52fc6-0cb1-4f59-8c54-f42932934c11",
+          "type": "SingleChoice",
+          "content": "What will happen if the staked $EASE tokens are withrawn?",
+          "hint": "NoHint",
+          "explanation": "The compounded $gvEASE tokens will be lost and cannot be recovered.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The $gvEASE tokens will start growing in time",
+              "key": "A"
+            },
+            {
+              "content": "$gvEASE tokens will be lost",
+              "key": "B"
+            },
+            {
+              "content": "$Armor tokens starts to grow in time",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8dd63fa5-5a8b-4d47-89af-dac0f795cf53",
+          "type": "SingleChoice",
+          "content": "What is the ratio of Armour tokens that can be swapped for $EASE token?",
+          "hint": "NoHint",
+          "explanation": "Since Ease is the upgraded version or next version of ArmourFi, the supply of $EASE and $Armor stays the same. The Armour tokens can be swapped for ease in 1:1 ratio.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "2:1",
+              "key": "A"
+            },
+            {
+              "content": "3:1",
+              "key": "B"
+            },
+            {
+              "content": "1:1",
+              "key": "C"
+            },
+            {
+              "content": "4:1",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ecf52e22-73e4-4945-aaed-a752c32a1598",
+          "type": "SingleChoice",
+          "content": "How many $EASE tokens can be minted after a DAO vote?",
+          "hint": "NoHint",
+          "explanation": "The maximum of 250 million $EASE tokens can be minted after a DAO vote in order to maintain the max supply of 1 billion.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "250 million",
+              "key": "A"
+            },
+            {
+              "content": "100 million",
+              "key": "B"
+            },
+            {
+              "content": "500 million",
+              "key": "C"
+            },
+            {
+              "content": "50 million",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b34ed286-010a-44d4-becd-203f0ea3f8c2",
+          "type": "SingleChoice",
+          "content": "In what event is coverage not provided in Ease DeFi Uninsurance system?",
+          "hint": "NoHint",
+          "explanation": "The covereage is not provided if the user lost ez-tokens or lost control of the wallet containing ez-tokens.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Economic design failure",
+              "key": "A"
+            },
+            {
+              "content": "Deliberate governance attack",
+              "key": "B"
+            },
+            {
+              "content": "Privileged authority acting in bad faith",
+              "key": "C"
+            },
+            {
+              "content": "If the user lost ez-tokens or lost control of the wallet containing ez-tokens",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
     }
   ]
 }
