@@ -51,9 +51,9 @@
       key: D
 - uuid: 56fbe5a0-3522-4654-a0ef-71f183da5564
   type: SingleChoice
-  content: Who confirms to liquidate assets for each vault in Ease protocol?
+  content: Who decides to liquidate assets for each vault in Ease protocol?
   hint: NoHint
-  explanation: The DAO will confirm to liquidate the assets to cover the affected vaults.
+  explanation: The DAO will decide to liquidate the assets to cover the affected vaults.
   answerKeys:
     - C
   difficultyLevel: "Medium"
@@ -92,13 +92,13 @@
     - B
   difficultyLevel: "High"
   choices:
-    - content: Smart-contracts
+    - content: Users will recieve $gvEASE after depositing the assets
       key: A
-    - content: ez-tokens
+    - content: Users will recieve ez-tokens after depositing the assets
       key: B
-    - content: Reserve amount
+    - content: A special certificate which is issued at the time of deposition
       key: C
-    - content: Premiums
+    - content: A NFT is provided for each depositor
       key: D
 - uuid: f1034ba32-de8a-41f8-9dc0-156d899dba8e
   type: SingleChoice
@@ -168,7 +168,7 @@
 
 - uuid: ecf52e22-73e4-4945-aaed-a752c32a1598
   type: SingleChoice
-  content: How many $EASE tokens can be minted after a DAO vote?
+  content: How many maximum new $EASE tokens can be minted after a DAO vote?
   hint: NoHint
   explanation: The maximum of 250 million $EASE tokens can be minted after a DAO vote in order to maintain the max supply of 1 billion.
   answerKeys:

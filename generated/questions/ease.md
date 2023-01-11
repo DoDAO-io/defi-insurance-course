@@ -56,7 +56,7 @@ Sub Topics: No Sub-Topics
 
 ---
 
-##### Who confirms to liquidate assets for each vault in Ease protocol?  
+##### Who decides to liquidate assets for each vault in Ease protocol?  
 
 - [ ]  The admin
 - [ ]  The user
@@ -65,7 +65,7 @@ Sub Topics: No Sub-Topics
   
 Hint: NoHint
          
-Explanation: The DAO will confirm to liquidate the assets to cover the affected vaults.
+Explanation: The DAO will decide to liquidate the assets to cover the affected vaults.
 
 Sub Topics: No Sub-Topics
  
@@ -90,10 +90,10 @@ Sub Topics: No Sub-Topics
 
 ##### What is the proof of deposition in Ease protocol?  
 
-- [ ]  Smart-contracts
-- [x]  ez-tokens
-- [ ]  Reserve amount
-- [ ]  Premiums
+- [ ]  Users will recieve $gvEASE after depositing the assets
+- [x]  Users will recieve ez-tokens after depositing the assets
+- [ ]  A special certificate which is issued at the time of deposition
+- [ ]  A NFT is provided for each depositor
   
 Hint: NoHint
          
@@ -166,7 +166,7 @@ Sub Topics: No Sub-Topics
 
 ---
 
-##### How many $EASE tokens can be minted after a DAO vote?  
+##### How many maximum new $EASE tokens can be minted after a DAO vote?  
 
 - [x]  250 million
 - [ ]  100 million

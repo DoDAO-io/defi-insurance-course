@@ -43,31 +43,26 @@
   details: >
     ### How Ease works
     
-    With regard to assets that are covered reciprocally, there are no initial expenses. Remuneration is only disbursed
-    in the event of a claimable occurrence, at which point a minimal sum is drawn from each vault to repay the loss,
-    which is denominated either in Ether or a stablecoin. Vaults are smart-contracts which will store user's assets and
-    mints ez-tokens as a proof of deposition. 
+    The Ease protocol is a decentralized insurance platform that utilizes smart-contracts, known as vaults, to store and insure assets. 
+    One of the key features of the Ease protocol is that assets are covered reciprocally, which means that there are no initial expenses 
+    for coverage and no premiums required. Instead, remuneration is only disbursed in the event of a claimable occurrence, and a minimal 
+    sum is drawn from each vault to repay the loss, which can be denominated in either Ether or a stablecoin.
 
-    In a basic reciprocal coverage system, the loss incurred by each vault (Li) is computed by taking the same
-    percentage of funds from the vault's value (Vi) as the total funds lost (TL) from the overall value of all vaults
-    (TV L). Mathematically, this can be represented as: Li = Vi * TL / TV L.
+    The vaults in the Ease protocol act as a smart-contract that stores user's assets and mints ez-tokens as a proof of deposition. 
+    These vaults also participate in the coverage of other vaults in the event of a claimable occurrence. The loss incurred by 
+    each vault is computed by taking the same percentage of funds from the vault's value as the total funds lost from the overall 
+    value of all vaults. This is represented mathematically as Li = Vi * TL / TV L.
 
-    Ease protocol works based on RCA (reciprocally covered assets). This means that the assets are covered by the sheets
-    themselves, unlike traditional insurance where there are requirements of underwriters to cover the assets. With Ease
-    protocol, there are no premiums required to cover assets. Users are only charged in the event of hacks or loss,
-    which reduces unnecessary premiums.
+    The RCA (reciprocally covered assets) model used by the Ease protocol distributes the loss across all vaults. If there is a 
+    loss in one vault, it is covered by the other vaults in the system. This makes the Ease protocol a more efficient and 
+    cost-effective way to insure assets when compared to traditional insurance methods that require underwriters to cover the assets.
 
-    The RCA model basically distributes the loss across all vaults. This means that if there is a loss in one vault, it
-    is covered by the other vaults in the system. This makes Ease protocol a more efficient and cost-effective way to
-    insure assets.
-
-    When a hack occurs, the admin freezes the reserve amount in each vault according to their maximum fee. This amount
-    won't be available for withdrawal. The admin sets the amount to be liquidated from the reserve amount. This amount
-    will be unique to each vault, based on safety ranking and total loss from the hack. The DAO votes and confirms to
-    liquidate assets for each vault.
-
+    When a hack occurs, the admin of the Ease protocol will freeze the reserve amount in each vault according to their maximum fee. 
+    This amount won't be available for withdrawal. The admin will then set the amount to be liquidated from the reserve amount, which 
+    will be unique to each vault and based on the safety ranking and total loss from the hack. The DAO (Decentralized Autonomous Organization) 
+    votes and confirms the liquidation of assets for each vault. 
+    
     For example, if we have 10 vaults with equal values rated from riskiest to safest, a hack occurs
-
     that affects 0.1% of the ecosystem, and the maximum percent that can be liquidated from each before moving onto the
     next is 0.5%, we will liquidate the maximum from the 2 riskiest vaults before the loss is fully compensated. If the
     hack affected more than 0.5% of the ecosystem, the liquidations would simply loop back around to the riskiest
