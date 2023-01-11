@@ -1,196 +1,203 @@
-- uuid: e00d2b19-5495-4ce5-87c2-18b9df7f6658
+- uuid: 152d3924-1a69-4254-a6f4-65c2fc27ea78
   type: SingleChoice
-  content: What is Sherlock?
+  content: What is the name of the approach used in Ease protocol to protect users against risks?
   hint: NoHint
-  explanation: Sherlock is a code audit market place.
-  answerKeys:
-    - B  
-  difficultyLevel: "Low"
-  choices:
-    - content: Insurance company
-      key: A
-    - content: Code audit marketplace
-      key: B
-    - content: Mutual funds company
-      key: C
-    - content: Bank
-      key: D
-- uuid: cdc68343-ec3e-4fee-a1a8-2807dd0bd714
-  type: SingleChoice
-  content: To whom does Sherlock provide insurance cover?
-  hint: NoHint
-  explanation: Sherlock provides insurance cover only to protocols and covers loss of fund by smart contracts that are audited by Sherlock.
-  answerKeys:
-    - D
-  difficultyLevel: "Medium"
-  choices:
-    - content: They offer health insurance to their users, so protocols cannot get insured
-      key: A
-    - content: To day-to-day users who wish to secure their funds 
-      key: B
-    - content: Directly to any party willing to pay an insurance premium
-      key: C
-    - content: To smart contracts / protocols audited by Sherlock
-      key: D
-- uuid: de3f96dd-7bb4-4a59-a142-f5732024fd78
-  type: SingleChoice
-  content: Depending on the mode of audit contest prefferred by the protocol, how is the insurance premium affected?
-  hint: NoHint
-  explanation: If the protocol wants to hold a public audit contest then 2% premium rate, if a private audit contest 2.25% premium rate.
+  explanation: The RCA is a way for users/subscribers to protect themselves against risk. It operates like an reciprocal insurance exchange, in which users essentially cover each other.
   answerKeys:
     - A
+  difficultyLevel: "Low"
+  choices:
+    - content: RCA
+      key: A
+    - content: Traditional coverage
+      key: B
+    - content: Risk-based pricing
+      key: C
+    - content: Premiums
+      key: D
+
+- uuid: c405a256-25de-4725-b3d0-99c013c79889
+  type: SingleChoice
+  content: Does RCA require premiums to be paid in advance?
+  hint: NoHint
+  explanation: RCA doesn't require any premiums users are only charged at the event of hacks usually known as "covered events".
+  answerKeys:
+    - B
   difficultyLevel: "Medium"
   choices:
-    - content: 2% premium rate for public audit contests and 2.25% for private audit contests
+    - content: "Yes"
       key: A
-    - content: 2.25% premium rate for public audit contests and 2% for private audit contests
+    - content: "No"
       key: B
-    - content: The premium rate is not affected by the mode of audit contest
-      key: C
-    - content: None of the above
-      key: D
-- uuid: 52902bed-6e4a-4506-bc46-f0dc5330390a
-  type: SingleChoice
-  content: What is / are the criteria for a protocol to stay current on premium?
-  hint: NoHint
-  explanation: Each protocol is required to maintain a minimum active balance of 500 USDC and 12 hours of minimum time of coverage left to stay current on payment. If a protocol falls below these requirements, it will be considered to have opted out of the insurance policy. 
 
+- uuid: 161cc6a3-fe95-4711-88d4-4a1bde3255b5
+  type: SingleChoice
+  content: What are the advantages of using Ease protocol compared to traditional insurance methods?
+  hint: NoHint
+  explanation: |
+    Ease protocol is more cost effective compared to the traditional insurance as the user's assets will act as a collateral. 
+    Users are charged only at the events of hack. No proof of loss is required to cover the assets as the claims can be easily verified.
   answerKeys:
     - D
   difficultyLevel: "Medium"
   choices:
-    - content: Minimum active balance of 500 USD
+    - content: It is more efficient and cost-effective
       key: A
-    - content: Minimum of 12 hours of coverage left
+    - content: It eliminates unnecessary premiums
       key: B
-    - content: No minimum criteria required
+    - content: No proof of loss is required for coverage
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 56fbe5a0-3522-4654-a0ef-71f183da5564
+  type: SingleChoice
+  content: Who confirms to liquidate assets for each vault in Ease protocol?
+  hint: NoHint
+  explanation: The DAO will confirm to liquidate the assets to cover the affected vaults.
+  answerKeys:
+    - C
+  difficultyLevel: "Medium"
+  choices:
+    - content: The admin
+      key: A
+    - content: The user
+      key: B
+    - content: The DAO
+      key: C
+    - content: The underwriter
+      key: D
+- uuid: 0a7802d8-7aed-4956-83ec-613a78a55ce2
+  type: SingleChoice
+  content: How is the amount to be liquidated from each vault determined in Ease protocol?
+  hint: NoHint
+  explanation: The loss amount in each vault to be calculated depends on the safety ranking, maximum fee and total loss from the hack.
+  answerKeys:
+    - D
+  difficultyLevel: "Low"
+  choices:
+    - content: Based on the maximum fee
+      key: A
+    - content: Based on the safety ranking
+      key: B
+    - content: Based on the total loss from the hack
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 0e82aee3-005d-4300-8106-2d5f0ca3c900
+  type: SingleChoice
+  content: What is the proof of deposition in Ease protocol?
+  hint: NoHint
+  explanation: The user's will recieve ez-tokens after depositing in the vault as a proof of deposition.
+  answerKeys:
+    - B
+  difficultyLevel: "High"
+  choices:
+    - content: Smart-contracts
+      key: A
+    - content: ez-tokens
+      key: B
+    - content: Reserve amount
+      key: C
+    - content: Premiums
+      key: D
+- uuid: f1034ba32-de8a-41f8-9dc0-156d899dba8e
+  type: SingleChoice
+  content: What is the format in which claim payouts will be distributed in Ease DeFi Uninsurance system?
+  hint: NoHint
+  explanation: Claim payouts will be distributed in the form of Ether or other fiat-denominated stablecoins to the affected vaults.
+  answerKeys:
+    - D
+  difficultyLevel: "Medium"
+  choices:
+    - content: Ether
+      key: A
+    - content: Stablecoin
+      key: B
+    - content: $EASE token
       key: C
     - content: Both A and B
       key: D
-- uuid: 5398626f-52d0-4f5b-a82d-c1176bf8d69a
+- uuid: c4932eef-a279-45df-b40b-f33163108080
   type: SingleChoice
-  content: Say a company is insured for 5 million but Sherlock's TVL is 4 million, what happens in this scenario?
+  content: Is it necessary for claimants to provide proof of loss in order to receive coverage?
   hint: NoHint
-  explanation: Sherlock will charge the protocol for a 4 million USD cover and not a 5 million USD cover.
+  explanation: There is no need for claimants to provide proof of loss in order to receive coverage.
+  answerKeys:
+    - B
+  difficultyLevel: "High"
+  choices:
+    - content: "Yes"
+      key: A
+    - content: "No"
+      key: B
+   
+- uuid: 06c52fc6-0cb1-4f59-8c54-f42932934c11
+  type: SingleChoice
+  content: What will happen if the staked $EASE tokens are withrawn?
+  hint: NoHint
+  explanation: The compounded $gvEASE tokens will be lost and cannot be recovered.
   answerKeys:
     - B
   difficultyLevel: "Medium"
   choices:
-    - content: Sherlock will charge the protocol for a 5 million USD cover
+    - content: The $gvEASE tokens will start growing in time
       key: A
-    - content: Sherlock will charge the protocol by for a 4 million USD cover and not a 5 million USD cover
+    - content: $gvEASE tokens will be lost
       key: B
-    - content: Sherlock will charge the protocol for (5 million + Sherlock's TVL) / 2
+    - content: $Armor tokens starts to grow in time
       key: C
-    - content: None of these
+    - content: None of the above
       key: D
-- uuid: a0f302e4-1097-4a69-afdc-799b09e5f530
+- uuid: 8dd63fa5-5a8b-4d47-89af-dac0f795cf53
   type: SingleChoice
-  content: Up to how much of the user's staked USDC is slashed in the event of an insurance claim? 
+  content: What is the ratio of Armour tokens that can be swapped for $EASE token?
   hint: NoHint
-  explanation: On staking, the user accepts the risk that up to 50% of their staked USDC could be slashed in the case of one or multiple claim(s).
+  explanation: Since Ease is the upgraded version or next version of ArmourFi, the supply of $EASE and $Armor stays the same. The Armour tokens can be swapped for ease in 1:1 ratio.
   answerKeys:
-    - D
-  difficultyLevel: "Low"
-  choices:
-    - content: 30%
-      key: A
-    - content: 25%
-      key: B
-    - content: 75%
-      key: C
-    - content: 50%
-      key: D
-- uuid: 27249c75-59c1-44fe-b760-3f99a91a5500
-  type: MultipleChoice
-  content: APY for stake users comes from which of these sources?
-  hint: NoHint
-  explanation: | 
-               The APY is generated for the user from three streams,
-               Premium paid by protocols
-               Yield generated by Sherlock by investing the staked USDC into protocols like Aave and Compound
-               SHER rewards
-                
-  answerKeys:
-    - A
     - C
-    - D
-  difficultyLevel: "High"
-  choices:
-    - content: Premium paid by protocols
-      key: A
-    - content: AAVE rewards
-      key: B
-    - content: Yield from Sherlock's investments in Aave, Compound, etc
-      key: C
-    - content: SHER rewards
-      key: D
-- uuid: fd23572fb-30b7-480d-932a-8347097dffdd
-  type: SingleChoice
-  content: Which of these statements are true regarding staking and unstaking in Sherlock?
-  hint: NoHint
-  explanation: After end of lockup period, the user has 2 weeks to unstake the money, else it gets restaked automatically by a bot and it is not possible to unstake before the end of lockup period.
-  answerKeys:
-    - D
   difficultyLevel: "Medium"
   choices:
-    - content: After end of lockup period, the user has 2 weeks to unstake the money, else it gets restaked automatically
+    - content: "2:1"
       key: A
-    - content: It is possible to unstake before the end of lockup period by paying a fee
+    - content: "3:1"
       key: B
-    - content: It is not possible to unstake before the end of lockup period
+    - content: "1:1"
       key: C
-    - content: Both A and C
+    - content: "4:1"
       key: D
-- uuid: 13b1c7d0-e6ca-4094-a683-49d695841b49
-  type: MultipleChoice
-  content: Which of the following is true regarding SHER distrubution?
-  hint: NoHint
-  explanation: Claims should abide with the expected time period, should have been in justified categories and significant amount.
-  answerKeys:
-    - B
-    - C
-  difficultyLevel: "High"
-  choices:
-    - content: The distrubution rate starts at zero and increases linearly till a value of TVL is achieved
-      key: A
-    - content: The distrubution rate starts at a high rate and remains constant till a value of TVL is achieved
-      key: B
-    - content: The distrubution rate starts reducing linearly after a point of TVL (of Sherlock) and reaches zero eventually
-      key: C
-    - content: The distrubution rate starts reducing linearly after a point of TVL (of Sherlock) and never reaches zero
-      key: D
-- uuid: 3cd83456-2eef-409e-abe8-9f4bf94dfbff
+
+- uuid: ecf52e22-73e4-4945-aaed-a752c32a1598
   type: SingleChoice
-  content: What are the two levels the insured protocol can access to evaluate a claim?
+  content: How many $EASE tokens can be minted after a DAO vote?
   hint: NoHint
-  explanation: The protocol can reach the SPCC (Sherlock Protocol Claims Committee) or the UMA optimistic oracle to evaluate their claim
+  explanation: The maximum of 250 million $EASE tokens can be minted after a DAO vote in order to maintain the max supply of 1 billion.
   answerKeys:
     - A
   difficultyLevel: "Medium"
   choices:
-    - content: Sherlock Protocol Claims Committee and UMA optimistic oracle
+    - content: 250 million
       key: A
-    - content: Sherlock Protocol Claims Committee and OOPS optimistic oracle
+    - content: 100 million
       key: B
-    - content: Sherlock Protocol Claims Committee and the judicial court
+    - content: 500 million
       key: C
-    - content: The legal system of their state and Sherlock Protocol Claims Committee
+    - content: 50 million
       key: D
-- uuid: 198f70af-a6cc-46f4-b85a-a4fd2b9078b9
+
+- uuid: b34ed286-010a-44d4-becd-203f0ea3f8c2
   type: SingleChoice
-  content: If the total claim(s) value is more then 50% of the Sherlock TVL, what happens?
+  content: In what event is coverage not provided in Ease DeFi Uninsurance system?
   hint: NoHint
-  explanation: If an exploit becomes possible on multiple protocols due to a chain bug (i.e. a bug in Ethereum L1), then no more than 50% of the staking pool can be used to repay those exploits.
+  explanation: The covereage is not provided if the user lost ez-tokens or lost control of the wallet containing ez-tokens.
   answerKeys:
-    - A
+    - D
   difficultyLevel: "Medium"
   choices:
-    - content: No more than 50% of TVL will be used to repay those exploits
+    - content: Economic design failure
       key: A
-    - content: The whole of the exploits will be paid back
+    - content: Deliberate governance attack
       key: B
-    - content: The exploits will be neglected and will not be paid back
+    - content: Privileged authority acting in bad faith
       key: C
-    - content: The exploits will be paid back by a loan taken by Sherlock
+    - content: If the user lost ez-tokens or lost control of the wallet containing ez-tokens
       key: D

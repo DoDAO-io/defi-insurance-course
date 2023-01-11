@@ -22,4 +22,5 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
  | 1      | Intoduction | | [Details](generated/topics/intoduction.md) <br/> [Explanations](generated/explanations/intoduction.md) <br/>  <br/>  <br/>  | undefined | undefined |
  | 2      | Nexus Mutual | | [Details](generated/topics/nexus-mutual.md) <br/> [Explanations](generated/explanations/nexus_mutual.md) <br/>  <br/>  <br/> [Questions](generated/questions/nexus_mutual.md) | Done | Done |
- | 3      | Sherlock | | [Details](generated/topics/sherlock.md) <br/> [Explanations](generated/explanations/sherlock.md) <br/>  <br/>  <br/> [Questions](generated/questions/sherlock.md) | Done | Done | 
+ | 3      | Sherlock | | [Details](generated/topics/sherlock.md) <br/> [Explanations](generated/explanations/sherlock.md) <br/>  <br/>  <br/> [Questions](generated/questions/sherlock.md) | Done | Done |
+ | 4      | Ease | | [Details](generated/topics/ease.md) <br/> [Explanations](generated/explanations/ease.md) <br/>  <br/>  <br/> [Questions](generated/questions/ease.md) | Done | Done | 
