@@ -157,7 +157,7 @@
   hint: No Hint
   explanation: 50% of NXM is staked on during the claim filling process.
   answerKeys:
-    - A
+    - D
   difficultyLevel: "Low"
   choices:
     - content: 20%
