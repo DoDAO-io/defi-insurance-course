@@ -154,10 +154,10 @@ Sub Topics: No Sub-Topics
 
 ##### What percentage of NXM is staked during the claim filling process?  
 
-- [x]  20%
+- [ ]  20%
 - [ ]  40%
 - [ ]  60%
-- [ ]  50%
+- [x]  50%
   
 Hint: No Hint
          
