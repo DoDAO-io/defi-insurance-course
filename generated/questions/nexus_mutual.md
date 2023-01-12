@@ -120,16 +120,16 @@ Sub Topics: No Sub-Topics
 
 ---
 
-##### How much time does it take for claim assessment?  
+##### How NXM token can be traded on centralised and decentralised exchanges?  
 
-- [ ]  2 days
-- [x]  3 days
-- [ ]  5 days
-- [ ]  More than 1 week
+- [ ]  Members of mutual have access to trade NXM on centralised and decentralised exchanges
+- [ ]  Various centralised exchanges have accepted NXM for trade
+- [x]  NXM can be wrapped thus forming wNXM which can be traded on centralised and decentralised exchanges.
+- [ ]  None of these
   
 Hint: No Hint
          
-Explanation: It takes 72 hours (3 days) for claim assessment.
+Explanation: wNXM or wrapped NXM has been developed to trade NXM on centralised and decentralised exchanges.
 
 Sub Topics: No Sub-Topics
  
@@ -152,16 +152,16 @@ Sub Topics: No Sub-Topics
 
 ---
 
-##### Nexus Mutual is built upon  
+##### What percentage of NXM is staked during the claim filling process?  
 
-- [x]  NXM network
-- [ ]  Ethereum Network
-- [ ]  Bitcoin Network
-- [ ]  Doge Network
+- [x]  20%
+- [ ]  40%
+- [ ]  60%
+- [ ]  50%
   
 Hint: No Hint
          
-Explanation: Nexus Mutual is built upon Ethereum Network
+Explanation: 50% of NXM is staked on during the claim filling process.
 
 Sub Topics: No Sub-Topics
  
