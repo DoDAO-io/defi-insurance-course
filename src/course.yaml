@@ -74,16 +74,18 @@ topics:
     questions: nexus_mutual.yaml
     status: Done
     completionWeek: Done
-
   - title: Sherlock
     key: sherlock
-    details: |
-      Later
+    details: >-
+      Sherlock is an audit marketplace and smart contract coverage protocol
+      built on the Ethereum blockchain. Sherlock works to protect Decentralized
+      Finance (DeFi) users from smart contract exploits with security reviews
+      from top auditors backed by smart contract coverage on the audited
+      contracts.
     explanations: sherlock.yaml
     questions: sherlock.yaml
     status: Done
     completionWeek: Done
-
   - title: Ease
     key: ease
     details: |
@@ -92,7 +94,6 @@ topics:
     questions: ease.yaml
     status: Done
     completionWeek: Done
-
 courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!
