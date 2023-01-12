@@ -148,9 +148,9 @@
     then,
 
     N = O*C<sub>N</sub>/  C<sub>O</sub>
-- title: Tokens
-  shortTitle: tokens
-  key: tokens
+- key: tokens
+  title: Tokens
+  shortTitle: Tokens
   details: >
 
     ### $EASE
@@ -172,6 +172,7 @@
     million $EASE can be minted through a contract. This can only happen after a
     DAO vote, and even the team cannot mint extra tokens. The Ease DAO will
     control the majority of the tokens, i.e. 400 million.
+
 
     ### $gvEASE
 
@@ -207,6 +208,7 @@
 
     * $gvEASE tokens are used for staking in the vaults which will reduce the
     maximum fee.
+
 
     ### Bribes and Leasing
 
