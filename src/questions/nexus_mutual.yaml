@@ -119,20 +119,20 @@
       key: D
 - uuid: f73cbb4f-e091-44e9-9517-350b097ed0ab
   type: SingleChoice
-  content: How much time does it take for claim assessment?
+  content: How NXM token can be traded on centralised and decentralised exchanges?
   hint: No Hint
-  explanation: It takes 72 hours (3 days) for claim assessment.
+  explanation: wNXM or wrapped NXM has been developed to trade NXM on centralised and decentralised exchanges.
   answerKeys:
-    - B
-  difficultyLevel: "Low"
+    - C
+  difficultyLevel: "Medium"
   choices:
-    - content: 2 days
+    - content: Members of mutual have access to trade NXM on centralised and decentralised exchanges
       key: A
-    - content: 3 days
+    - content: Various centralised exchanges have accepted NXM for trade
       key: B
-    - content: 5 days
+    - content: NXM can be wrapped thus forming wNXM which can be traded on centralised and decentralised exchanges.
       key: C
-    - content: More than 1 week
+    - content: None of these
       key: D
 - uuid: 941d074d-4261-4959-8e44-6379432d2f1b
   type: SingleChoice
@@ -153,18 +153,18 @@
       key: D
 - uuid: aeb74bfe-9562-41e0-bc42-73006c0528f9
   type: SingleChoice
-  content: Nexus Mutual is built upon
+  content: What percentage of NXM is staked during the claim filling process?
   hint: No Hint
-  explanation: Nexus Mutual is built upon Ethereum Network
+  explanation: 50% of NXM is staked on during the claim filling process.
   answerKeys:
-    - A
+    - D
   difficultyLevel: "Low"
   choices:
-    - content: NXM network
+    - content: 20%
       key: A
-    - content: Ethereum Network
+    - content: 40%
       key: B
-    - content: Bitcoin Network
+    - content: 60%
       key: C
-    - content: Doge Network
+    - content: 50%
       key: D
