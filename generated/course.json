@@ -1136,5 +1136,9 @@
       "readings": [],
       "summaries": []
     }
-  ]
+  ],
+  "topicConfig": {
+    "showExplanations": false,
+    "showHints": false
+  }
 }
