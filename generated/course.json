@@ -44,7 +44,291 @@
           "details": "We will be discussing some of the new business models we see in DeFi insurance protocols below. We will also be \ndiscussing each of the DeFi Insurance Protocols in detail separately.\n\n### Mutual or Cooperatives\nBefore insurance companies came into existence, communities would band together and pool resources in order to \nprotect individual members from risks they all faced. If an unfortunate event occurred, the senior members of the \ncommunity would decide whether or not to provide assistance. All funds raised were used to benefit the members of \nthe community.\n\nStarting a mutual or cooperative can be complicated and expensive, with legal fees often running into the tens of \nthousands of dollars.There are also many other challenges that exist in cooperatives, such as taking common decisions, \nvoting, and rewarding active participants over inactive members. The recent DAO movement in cryptocurrency is trying \nto address many of these solutions and offers software solutions for many of these problems.\n\nNexusMutual is the most prominent DeFi insurance protocol, and it takes a cooperative approach to business. To \nparticipate or buy insurance cover, one must be a member of the mutual. With this business model, both the cover \nproviders and insurance cover buyers work towards the success of the protocol.\n\nThis approach ensures that everyone has a vested interest in the success of the protocol, and that everyone is working \ntogether to make it successful. This cooperative approach is what makes NexusMutual different from traditional \ninsurance providers.\n\n### Provide Warranty(Assurance)\nBigger companies have the advantage when it comes to offering warranties for their products and services. If a customer \nis dissatisfied with a purchase, they can receive a refund or some other form of compensation. This makes it difficult \nfor smaller businesses to compete in the same market.\n\nTokenization can help startups by providing interesting models that solve problems related to the product or service \nwarranties. For example, a startup could ask investors to stake some funds to help offset the risk of a warranty, and \nin return the startup would reward them with a portion of the premiums. This is somewhat similar to how public \ninsurance companies work, where the profits go to shareholders. However, DeFi provides a lot more flexibility \nto investors, allowing them to invest and then earn based on their knowledge and risk appetite.\n\nIn one of the sections, we will discuss the Sherlock protocol in detail. This protocol offers companies warranties against \nany funds loss that may occur as a result of security exploits in the code that has been audited.\n\n### Reciprocal Insurance\nThere are three primary ways to structure an insurance company: the stock model, the mutual model, and the reciprocal \nmodel. The reciprocal model is the least well-known of the three, but it has been gaining popularity over the last \ndecade.\n\nUnder this structure, the insurance company is owned by its policyholders and managed by a third party known as an \nattorney-in-fact. The attorney-in-fact runs the company’s day-to-day operations, such as issuing policies and handling \nclaims. They also oversee the distribution of expenses based on the membership’s potential risks.\n\nDeFi primitives such as DAOs and capturing data on-chain provide the essential tools needed for coordination and \ntransparency. DeFi insurance provider [Ease](https://ease.org) follows Reciprocal Model to provide insurance to its \ncustomers."
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "980cf291-2b84-4d6f-aa45-72d509acf836",
+          "type": "SingleChoice",
+          "content": "Which of the following are challenges associated with traditional finance?",
+          "hint": "Difficulties customers face in traditional insurance.",
+          "explanation": "Customers lack trust in traditional insurance companies as they are highly prone to scams and fraud.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Traditional Insurances run on low capital requirements.",
+              "key": "A"
+            },
+            {
+              "content": "With the increase in the number of claims the revenue of insurance companies also increases",
+              "key": "B"
+            },
+            {
+              "content": "Customers lack trust in these organisations and they are highly prone to scams.",
+              "key": "C"
+            },
+            {
+              "content": "Technological advancements are fast-paced",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "00fd74cd-b117-4358-967d-f30a2e9fa351",
+          "type": "SingleChoice",
+          "content": "How are bonding curves advantageous to raise funds?",
+          "hint": "No Hint",
+          "explanation": "Bonding curves are advantageous for early investors because they get more tokens compared to later investors.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Early investors get more tokens compared to later ones.",
+              "key": "A"
+            },
+            {
+              "content": "They are secured if funds are lost.",
+              "key": "B"
+            },
+            {
+              "content": "High investments are required",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "26930591-a9ce-4d31-a98a-f97671e75348",
+          "type": "MultipleChoice",
+          "content": "Which of the following points explains why defi insurance is better than traditional insurance?",
+          "hint": "Advantages of DeFi insurance over traditional insurance system.",
+          "explanation": "DeFi insurance mostly consists of codes of smart contracts. Hence this reduces the cost of serving 1000 or 10,000 customers at once. Moreover, customers become stakeholders in the protocol and they contribute to the success of the protocol.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The cost of serving does not accelerate with the rapid growth of customers in defi insurance.",
+              "key": "A"
+            },
+            {
+              "content": "Defi Insurance is not applicable for mass adoption.",
+              "key": "B"
+            },
+            {
+              "content": "Customers become stakeholders in the insurance protocol and participate in the organisation's success.",
+              "key": "C"
+            },
+            {
+              "content": "Most Defi Insurances only allow high-value investors to join the protocol.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "80b6879d-710a-4a6a-8217-cc12d2b8ca42",
+          "type": "SingleChoice",
+          "content": "It is easier to build innovate the DeFi insurance system compared to Traditional insurance system.",
+          "hint": "No Hint",
+          "explanation": "DeFi insurances have well document code structure. This makes it easier for developers to fork the project and add new features to it. Thus innovation becomes easier for DeFi protocols.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "227c5d0c-45eb-4a86-9c46-1b6dc6c64601",
+          "type": "SingleChoice",
+          "content": "Why defi insurances are more trustworthy compared to traditional insurance?",
+          "hint": "Transparency of DeFi insurances",
+          "explanation": "DeFi insurance protocols have their working and token system described on their websites. They share the risk and claim assessment details as well.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Defi Insurance does not provide false claims to customers.",
+              "key": "A"
+            },
+            {
+              "content": "Defi insurances have its codes and working open-sourced and well documented on their websites.",
+              "key": "B"
+            },
+            {
+              "content": "Defi insurance protocols charge low premiums from their customers.",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "193d00a4-9671-44b0-aac0-79e6adc05cf0",
+          "type": "SingleChoice",
+          "content": "Nexus Mutual is a type of -",
+          "hint": "No Hint",
+          "explanation": "Nexus Mutual is a type of Cooperatives or Mutual model.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stock Model",
+              "key": "A"
+            },
+            {
+              "content": "Reciprocal Model",
+              "key": "B"
+            },
+            {
+              "content": "Mutual Model",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "beeba39d-cd09-412c-9f0a-0266ee3af18a",
+          "type": "SingleChoice",
+          "content": "Nexus Mutual provides insurance only to -",
+          "hint": "Nexus Mutual works for its members only.",
+          "explanation": "Nexus Mutual provides covers only for mutual members. If any person wants to get covered he/she needs to be firstly a part of the mutual.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "People who want to buy an insurance cover.",
+              "key": "A"
+            },
+            {
+              "content": "The mutual members",
+              "key": "B"
+            },
+            {
+              "content": "Anyone other than mutual members",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "7b6ec7e5-d142-45b2-b41b-45e089f7cc75",
+          "type": "SingleChoice",
+          "content": "What is Sherlock?",
+          "hint": "No Hint",
+          "explanation": "Sherlock is a code audit marketplace.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Insurance Company",
+              "key": "A"
+            },
+            {
+              "content": "Code audit marketplace",
+              "key": "B"
+            },
+            {
+              "content": "Bank",
+              "key": "C"
+            },
+            {
+              "content": "Mutual Funds Company",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0bd1949f-4836-41df-90bb-91a7bdd76b7f",
+          "type": "SingleChoice",
+          "content": "Sherlock provides insurance to-",
+          "hint": "No Hint",
+          "explanation": "Sherlock provides insurance for smart contracts/protocols that have been audited by sherlock for finding bugs and issues with code.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "They offer health insurance to their users, so protocols cannot get insured.",
+              "key": "A"
+            },
+            {
+              "content": "To day-to-day users who wish to secure their funds.",
+              "key": "B"
+            },
+            {
+              "content": "Directly to any party willing to pay an insurance premium.",
+              "key": "C"
+            },
+            {
+              "content": "To smart contracts/protocols audited by Sherlock.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f8aba742-ff0b-49c9-ae56-835a4e6394ba",
+          "type": "SingleChoice",
+          "content": "Ease is a type of -",
+          "hint": "No Hint",
+          "explanation": "Ease is type of Reciprocal Model.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stock Model",
+              "key": "A"
+            },
+            {
+              "content": "Reciprocal Model",
+              "key": "B"
+            },
+            {
+              "content": "Mutual Model",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },

@@ -65,7 +65,8 @@ topics:
       technology that has the potential to make insurance more transparent,
       efficient, and accessible.
 
-    explanations: intoduction.yaml
+    explanations: introduction.yaml
+    questions: introduction.yaml
   - title: Nexus Mutual
     key: nexus-mutual
     details: |

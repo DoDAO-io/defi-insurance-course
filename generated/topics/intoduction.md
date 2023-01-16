@@ -20,3 +20,4 @@ Here are some key points to consider when thinking about insurance in DeFi:
 
 
 
+[Questions](./../../generated/questions/introduction.md)
