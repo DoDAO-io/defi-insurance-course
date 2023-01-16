@@ -43,7 +43,291 @@
           "title": "Innovative DeFi Insurance Models"
         }
       ],
-      "questions": [],
+      "questions": [
+        {
+          "uuid": "980cf291-2b84-4d6f-aa45-72d509acf836",
+          "type": "SingleChoice",
+          "content": "Which of the following are challenges associated with traditional finance?",
+          "hint": "Difficulties customers face in traditional insurance.",
+          "explanation": "Customers lack trust in traditional insurance companies as they are highly prone to scams and fraud.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Traditional Insurances run on low capital requirements.",
+              "key": "A"
+            },
+            {
+              "content": "With the increase in the number of claims the revenue of insurance companies also increases",
+              "key": "B"
+            },
+            {
+              "content": "Customers lack trust in these organisations and they are highly prone to scams.",
+              "key": "C"
+            },
+            {
+              "content": "Technological advancements are fast-paced",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "00fd74cd-b117-4358-967d-f30a2e9fa351",
+          "type": "SingleChoice",
+          "content": "How are bonding curves advantageous to raise funds?",
+          "hint": "No Hint",
+          "explanation": "Bonding curves are advantageous for early investors because they get more tokens compared to later investors.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Early investors get more tokens compared to later ones.",
+              "key": "A"
+            },
+            {
+              "content": "They are secured if funds are lost.",
+              "key": "B"
+            },
+            {
+              "content": "High investments are required",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "26930591-a9ce-4d31-a98a-f97671e75348",
+          "type": "MultipleChoice",
+          "content": "Which of the following points explains why defi insurance is better than traditional insurance?",
+          "hint": "Advantages of DeFi insurance over traditional insurance system.",
+          "explanation": "DeFi insurance mostly consists of codes of smart contracts. Hence this reduces the cost of serving 1000 or 10,000 customers at once. Moreover, customers become stakeholders in the protocol and they contribute to the success of the protocol.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The cost of serving does not accelerate with the rapid growth of customers in defi insurance.",
+              "key": "A"
+            },
+            {
+              "content": "Defi Insurance is not applicable for mass adoption.",
+              "key": "B"
+            },
+            {
+              "content": "Customers become stakeholders in the insurance protocol and participate in the organisation's success.",
+              "key": "C"
+            },
+            {
+              "content": "Most Defi Insurances only allow high-value investors to join the protocol.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "80b6879d-710a-4a6a-8217-cc12d2b8ca42",
+          "type": "SingleChoice",
+          "content": "It is easier to build innovate the DeFi insurance system compared to Traditional insurance system.",
+          "hint": "No Hint",
+          "explanation": "DeFi insurances have well document code structure. This makes it easier for developers to fork the project and add new features to it. Thus innovation becomes easier for DeFi protocols.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "True",
+              "key": "A"
+            },
+            {
+              "content": "False",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "227c5d0c-45eb-4a86-9c46-1b6dc6c64601",
+          "type": "SingleChoice",
+          "content": "Why defi insurances are more trustworthy compared to traditional insurance?",
+          "hint": "Transparency of DeFi insurances",
+          "explanation": "DeFi insurance protocols have their working and token system described on their websites. They share the risk and claim assessment details as well.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Defi Insurance does not provide false claims to customers.",
+              "key": "A"
+            },
+            {
+              "content": "Defi insurances have its codes and working open-sourced and well documented on their websites.",
+              "key": "B"
+            },
+            {
+              "content": "Defi insurance protocols charge low premiums from their customers.",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "193d00a4-9671-44b0-aac0-79e6adc05cf0",
+          "type": "SingleChoice",
+          "content": "Nexus Mutual is a type of -",
+          "hint": "No Hint",
+          "explanation": "Nexus Mutual is a type of Cooperatives or Mutual model.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stock Model",
+              "key": "A"
+            },
+            {
+              "content": "Reciprocal Model",
+              "key": "B"
+            },
+            {
+              "content": "Mutual Model",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "beeba39d-cd09-412c-9f0a-0266ee3af18a",
+          "type": "SingleChoice",
+          "content": "Nexus Mutual provides insurance only to -",
+          "hint": "Nexus Mutual works for its members only.",
+          "explanation": "Nexus Mutual provides covers only for mutual members. If any person wants to get covered he/she needs to be firstly a part of the mutual.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "People who want to buy an insurance cover.",
+              "key": "A"
+            },
+            {
+              "content": "The mutual members",
+              "key": "B"
+            },
+            {
+              "content": "Anyone other than mutual members",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "7b6ec7e5-d142-45b2-b41b-45e089f7cc75",
+          "type": "SingleChoice",
+          "content": "What is Sherlock?",
+          "hint": "No Hint",
+          "explanation": "Sherlock is a code audit marketplace.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Insurance Company",
+              "key": "A"
+            },
+            {
+              "content": "Code audit marketplace",
+              "key": "B"
+            },
+            {
+              "content": "Bank",
+              "key": "C"
+            },
+            {
+              "content": "Mutual Funds Company",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0bd1949f-4836-41df-90bb-91a7bdd76b7f",
+          "type": "SingleChoice",
+          "content": "Sherlock provides insurance to-",
+          "hint": "No Hint",
+          "explanation": "Sherlock provides insurance for smart contracts/protocols that have been audited by sherlock for finding bugs and issues with code.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "They offer health insurance to their users, so protocols cannot get insured.",
+              "key": "A"
+            },
+            {
+              "content": "To day-to-day users who wish to secure their funds.",
+              "key": "B"
+            },
+            {
+              "content": "Directly to any party willing to pay an insurance premium.",
+              "key": "C"
+            },
+            {
+              "content": "To smart contracts/protocols audited by Sherlock.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f8aba742-ff0b-49c9-ae56-835a4e6394ba",
+          "type": "SingleChoice",
+          "content": "Ease is a type of -",
+          "hint": "No Hint",
+          "explanation": "Ease is type of Reciprocal Model.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stock Model",
+              "key": "A"
+            },
+            {
+              "content": "Reciprocal Model",
+              "key": "B"
+            },
+            {
+              "content": "Mutual Model",
+              "key": "C"
+            },
+            {
+              "content": "None of these",
+              "key": "D"
+            }
+          ]
+        }
+      ],
       "readings": [],
       "summaries": []
     },
@@ -371,7 +655,7 @@
           "hint": "No Hint",
           "explanation": "50% of NXM is staked on during the claim filling process.",
           "answerKeys": [
-            "A"
+            "D"
           ],
           "difficultyLevel": "Low",
           "choices": [
