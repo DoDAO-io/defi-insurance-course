@@ -59,6 +59,7 @@ Since Ease is the upgraded version or next version of ArmourFi, the supply of $E
 
 #### History of $EASE token
 1 billion Ease tokens were initially minted, but 250 million were sent to a burn address. The remaining 750 million $EASE is the maximum supply, but 250 million $EASE can be minted through a contract. This can only happen after a DAO vote, and even the team cannot mint extra tokens. The Ease DAO will control the majority of the tokens, i.e. 400 million.
+
 ### $gvEASE
 The $gvEase tokens are minted by staking the $Ease tokens. These are growing vote tokens which will grow in time.
 The $gvEASE token is a unique digital asset that offers a number of properties for users to take advantage of. Firstly, it is not tradable, meaning it cannot be bought or sold on any market. However, the staked Ease tokens can be withdrawn at any time, giving users the flexibility to move their funds as they see fit. However, it is important to note that if the $EASE is withdrawn, the user will receive the $EASE tokens but any additional $gvEASE will be lost.
@@ -67,6 +68,7 @@ It's important to note that $gvEASE tokens can only be used for staking, not for
 The main uses of $gvEASE tokens
 * $gvEASE tokens are used for DAO voting.
 * $gvEASE tokens are used for staking in the vaults which will reduce the maximum fee.
+
 ### Bribes and Leasing
 Users who want to reduce the maximum fee for their desired vaults can offer $EASE tokens as a bribe to $gvEASE holders. Protocols or users interested in reducing their vaults' max fees can buy $EASE tokens and offer them to $gvEASE holders as a bribe. Bribed $gvEASE cannot be used for DAO votes.
 The users can lease their $gvEASE tokens to get weekly $EASE rewards. The leased $gvEASE can be used for staking, but it cannot be used for DAO voting. Mostly, the vaults with very low maximum fees will lease $gvEASE tokens.

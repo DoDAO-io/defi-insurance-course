@@ -11,10 +11,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  In this course we first give some introduction to Insurance in DeFi and then we  discuss how Insurance works in various protocols
 1) Chapter 1 - Insurance in DeFi
 2) Chapter 2 - NexusMutual
-3) Chapter 3 - BridgeMutual
-4) Chapter 4 - InsurAce
-5) Chapter 5 - Unslashed
-6) Chapter 6 - Sherlock
+3) Chapter 3 - Sherlock
+4) Chapter 3 - Ease
  
  ## Chapters
  

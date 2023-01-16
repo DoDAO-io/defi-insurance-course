@@ -5,8 +5,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Sherlock
  
-Later
-
+Sherlock is an audit marketplace and smart contract coverage protocol built on the Ethereum blockchain. Sherlock works to protect Decentralized Finance (DeFi) users from smart contract exploits with security reviews from top auditors backed by smart contract coverage on the audited contracts.
 
 ## Links
 
