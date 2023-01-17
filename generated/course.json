@@ -18,8 +18,8 @@
   ],
   "coursePassContent": "Pass content of Course !!!!!!!!!!",
   "topicConfig": {
-    "showExplanations": false,
-    "showHints": false
+    "showExplanations": true,
+    "showHints": true
   },
   "topics": [
     {

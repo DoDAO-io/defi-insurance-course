@@ -10,7 +10,8 @@ highlights:
   - Unslashed
   - Sherlock
 publishStatus: Live
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/insurance_course.png
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/insurance_course.png
 details: >-
   In this course we first give some introduction to Insurance in DeFi and then
   we  discuss how Insurance works in various protocols
@@ -93,5 +94,5 @@ courseAdmins:
   - '0x34d014758297c00fea49935fce172677904d51ef'
 coursePassContent: Pass content of Course !!!!!!!!!!
 topicConfig:
-  showExplanations: false
-  showHints: false
+  showExplanations: true
+  showHints: true
