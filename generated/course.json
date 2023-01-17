@@ -227,11 +227,12 @@
           "uuid": "866f57ac-540f-4b3d-bff6-6460b7f63c53",
           "type": "SingleChoice",
           "content": "Which of the following covers is helpful in the case the token loses its intrinsic value or the underlying asset losses its value?",
-          "hint": "No Hint",
+          "hint": "NoHint",
           "explanation": "Yield Token Cover is helpful in the case the token loses its intrinsic value or the underlying asset losses its value.",
           "answerKeys": [
             "B"
           ],
+          "subTopics": [],
           "difficultyLevel": "Medium",
           "choices": [
             {
